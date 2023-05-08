@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: hwlicense-expired-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: hwlicense.expired events
+---
+
+= hwlicense.expired events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== hwlicense.expired
+*Severity*::
+EMERGENCY
+*Description*::
+This message occurs when the system detects an expired hardware license.
+*Corrective Action*::
+Install a valid permanent hardware license.
+*Syslog Message*::
+Temporary hardware license expired on %s. Hours remaining before the system will halt: %d.
+*Parameters*::
+*date* (STRING): Expiration date of the hardware license.
+*hours* (INT): Number of hours before the system halts.

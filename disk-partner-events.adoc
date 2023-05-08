@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: disk-partner-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: disk.partner events
+---
+
+= disk.partner events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== disk.partner.sanitizeStart
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when a message is received from the partner for a disk sanitize start.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The partner has started a disk sanitize on %s.
+*Parameters*::
+*diskName* (STRING): Name of the disk.

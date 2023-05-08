@@ -1,0 +1,187 @@
+---
+sidebar: sidebar
+permalink: cft-trans-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: cft.trans events
+---
+
+= cft.trans events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== cft.trans.aggr.end
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) is successful.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s on node "%s" for aggregate UUID:%s using Snapshot:%s completed successfully.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*node* (STRING): Name of the target controller.
+*aggrUuid* (STRING): UUID of the aggregate.
+*snapshot* (STRING): Aggregate Snapshot(R) copy name.
+
+== cft.trans.aggr.failed
+*Severity*::
+ALERT
+*Description*::
+This message occurs when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) fails.
+*Corrective Action*::
+Contact technical support for assistance.
+*Syslog Message*::
+Copy-Free Transition session:%s on node "%s" for aggregate UUID:%s using Snapshot:%s failed.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*node* (STRING): Name of the target controller.
+*aggrUuid* (STRING): UUID of the aggregate.
+*snapshot* (STRING): Aggregate Snapshot(R) copy name.
+
+== cft.trans.aggr.start
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) starts.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s on node "%s" for aggregate UUID:%s using Snapshot:%s started.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*node* (STRING): Name of the target controller.
+*aggrUuid* (STRING): UUID of the aggregate.
+*snapshot* (STRING): Aggregate Snapshot(R) copy name.
+
+== cft.trans.commit.end
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition commit on a transitioned aggregate in clustered Data ONTAP(R) is successful.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s commit phase for aggregate UUID:%s" completed successfully.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*aggrUuid* (STRING): UUID of the aggregate.
+
+== cft.trans.commit.failed
+*Severity*::
+EMERGENCY
+*Description*::
+This message occurs when Copy-Free Transition commit of a transitioned aggregate in clustered Data ONTAP(R) fails.
+*Corrective Action*::
+Contact technical support for assistance.
+*Syslog Message*::
+Copy-Free Transition session:%s commit phase for aggregate UUID:%s " failed.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*aggrUuid* (STRING): UUID of the aggregate.
+
+== cft.trans.commit.start
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition commit of a transitioned aggregate in clustered Data ONTAP(R) starts.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s commit phase for aggregate UUID:%s" started.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*aggrUuid* (STRING): UUID of the aggregate.
+
+== cft.trans.revert.end
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when a Copy-Free Transition revert operation for an aggregate is successfully completed.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s revert to Data ONTAP 7-Mode version:%s for aggregate UUID:%s on node "%s" completed successfully.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*kernelVersion* (STRING): Kernel Version of 7-Mode needed for the revert operation.
+*aggrUuid* (STRING): UUID of the aggregate.
+*node* (STRING): Name of the target controller.
+
+== cft.trans.revert.failed
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a Copy-Free Transition revert operation of a transitioned aggregate in clustered Data ONTAP(R) fails.
+*Corrective Action*::
+Contact technical support for assistance.
+*Syslog Message*::
+Copy-Free Transition session:%s revert to Data ONTAP 7-Mode version:%s for aggregate UUID:%s on node "%s" failed.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*kernelVersion* (STRING): Kernel version of 7-Mode needed for the revert operation.
+*aggrUuid* (STRING): UUID of the aggregate.
+*node* (STRING): Name of the target controller.
+
+== cft.trans.revert.start
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when a Copy-Free Transition revert for an aggregate starts.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s revert to Data ONTAP 7-Mode version:%s for aggregate UUID:%s on node "%s" started.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*kernelVersion* (STRING): Kernel version of 7-Mode needed for the revert operation.
+*aggrUuid* (STRING): UUID of the aggregate.
+*node* (STRING): Name of the target controller.
+
+== cft.trans.vol.end
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occur when Copy-Free Transition's volume transition job, responsible for transitioning 7-Mode volumes to clustered Data ONTAP(R), is complete. It provides the details of the number of successful transitions and the number of failures, with references for rectification and corrective measures.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s volume transition job for %d volumes is complete. %d volumes transitioned successfully and %d volumes failed.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*numVolumes* (INT): Number of volumes transitioning.
+*successTransVols* (INT): Number of volumes successfully transitioned.
+*failedTransVols* (INT): Number of volumes that failed to transition.
+
+== cft.trans.vol.failed
+*Severity*::
+ERROR
+*Description*::
+This message occurs when Copy-Free Transition of a 7-Mode volume to clustered Data ONTAP(R) fails.
+*Corrective Action*::
+Contact technical support for assistance.
+*Syslog Message*::
+Copy-Free Transition session:%s for volume UUID:%s contained in aggregate UUID:%s and associated with Vserver "%s" failed.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*volUuid* (STRING): Volume unique identifier.
+*aggrUuid* (STRING): UUID of the containing aggregate.
+*vserver* (STRING): Vserver associated with the volume.
+
+== cft.trans.vol.start
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when Copy-Free Transition's volume transition job, responsible for transitioning 7-Mode volumes to clustered Data ONTAP(R), starts.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Copy-Free Transition session:%s volume transition job for %d volumes started.
+*Parameters*::
+*sessionId* (STRING): Unique session identification number.
+*numVolumes* (INT): Number of volumes transitioning.

@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: san-nonetworkportadaptertype-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: san.nonetworkportadaptertype events
+---
+
+= san.nonetworkportadaptertype events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== san.NoNetworkPortAdapterType
+*Severity*::
+ERROR
+*Description*::
+This message occurs in MetroCluster(TM) configurations on clustered Data ONTAP(R) systems, when Data ONTAP cannot find a port on the disaster recovery (DR) node that is of the same adapter type (CNA/NIC) as the home port of the primary Vserver iSCSI LIF.
+*Corrective Action*::
+Ensure that there are ports in the destination cluster node (DR partner) that have the same adapter type as the source cluster port that hosts the primary Vserver iSCSI LIF. Use the "net port show" and "run -node <node-name> sysconfig -ca" commands to view the network port-adapter type information. After ensuring same adapter type port is available on the DR partner, run the "metrocluster check lif repair-placement" command in the source cluster with the Vserver name and LIF name as inputs after ensuring that there are ports in the destination cluster node (DR partner) that have the same adapter type. After running the repair placement command, run the "metrocluster check lif show" command to see whether LIF placement succeeded or not.
+*Syslog Message*::
+There are no ports on node "%s" in the destination cluster that have the adapter type "%s" in IPspace "%s" required to host the secondary Vserver "%s" iSCSI LIF "%s".
+*Parameters*::
+*node* (STRING): Name of the destination cluster node (DR partner) that does not have a port of the same adapter type as the port in the source cluster.
+*adapter_type* (STRING): Adapter type of the source cluster port.
+*ipspace_name* (STRING): Name of the IPspace.
+*vserver_name* (STRING): Vserver that owns the LIF.
+*lif* (STRING): Name of the iSCSI LIF.
