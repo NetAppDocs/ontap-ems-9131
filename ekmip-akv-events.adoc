@@ -1,0 +1,98 @@
+---
+sidebar: sidebar
+permalink: ekmip-akv-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ekmip.akv events
+---
+
+= ekmip.akv events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ekmip.akv.available
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when a configured Azure Key Vault (AKV) that was previously reported unavailable for key operations is now available.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The Azure Key Vault "%s" configured for Vserver "%s" is now available.
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+
+== ekmip.akv.keyExpired
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the current key version associated with the key identifier of the configured Azure Key Vault (AKV) has expired. The key version might be out of compliance. It is recommended that you update the key version to an active, non-expired key. ONTAP will still be able to unwrap the top-level internal key protection key with the expired key version and there will be no interruption to data availability.
+*Corrective Action*::
+Update the key-id to an active, non-expired key at the AKV portal.
+*Syslog Message*::
+The key-id "%s", owned by the Azure Key Vault "%s" and configured for Vserver "%s", has expired.
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+*keyId* (STRING): Key ID.
+
+== ekmip.akv.keyVersionChanged
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the current key version associated with the key identifier of the configured Azure Key Vault (AKV), the AKV key-id, changes. The key version might have been auto-rotated or manually changed at the AKV. Additionally, the top-level internal key protection key has been successfully re-wrapped with the current key version of the AKV key-id.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+The key version of the key-id owned by the Azure Key Vault "%s" configured for Vserver "%s" has been changed from "%s" to "%s".
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+*oldKeyVersion* (STRING): Previous key version.
+*newKeyVersion* (STRING): Current key version.
+
+== ekmip.akv.notAvailable
+*Severity*::
+ALERT
+*Description*::
+This message occurs when a check for the availability of the configured Azure Key Vault (AKV) for key operations fails. The AKV might be down or there might be a network-related problem preventing communication. Without access to the AKV, the node might not be able to restore authentication keys needed to unlock NSE or SED drives or encryption keys needed to mount encrypted volumes. If the AKV is not available, the next time this node boots, then the failure to restore the keys might prevent the node from booting successfully or prevent the encrypted volumes hosted on this node from coming online.
+*Corrective Action*::
+Ensure that the AKV configuration is correct by using the "security key-manager external azure show -vserver <vserver>" command and verifying that the cluster state is available. If it is not available, run the "security key-manager external azure restore" command to bring the cluster state to available. If the issue still persists, contact technical support.
+*Syslog Message*::
+The Azure Key Vault "%s" configured for Vserver "%s" is not available.
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+
+== ekmip.akv.volOffline
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the Vserver has been blocked and any encrypted volumes belonging to the Vserver have been taken offline due to errors received when attempting to access the key owned by the Azure Key Vault (AKV). Reasons for AKV key access errors include a disabled key, a key not being found and a key missing encryption and decryption privileges. ONTAP polls the AKV every 15 minutes to verify key accessibility. If, for 60 minutes, ONTAP does not receive a successful response to a poll, all encrypted volumes are taken offline and remain offline until the key access issues are resolved at the AKV. When ONTAP does receive a successful response, the volumes are brought back online automatically.
+*Corrective Action*::
+Resolve the key access issues at the AKV portal. Ensure that the key is active and has the required encryption and decryption privileges.
+*Syslog Message*::
+The Vserver has been blocked and any encrypted volumes belonging to Vserver "%s" have been taken offline due to key access errors associated with the key-id "%s" owned by Azure Key Vault "%s".
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+*keyId* (STRING): Key ID.
+
+== ekmip.akv.volOnline
+*Severity*::
+NOTICE
+*Description*::
+This message occurs when the volumes configured on the Azure Key Vault (AKV) that were unavailable due to key access issues are now back online.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+Encrypted volumes belonging to Vserver "%s" associated with the key-id "%s" owned by Azure Key Vault "%s" are now back online.
+*Parameters*::
+*name* (STRING): URI of the AKV.
+*vserver* (STRING): Name of the Vserver where the AKV is configured.
+*keyId* (STRING): Key ID.

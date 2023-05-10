@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: hwlicense-temporary-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: hwlicense.temporary events
+---
+
+= hwlicense.temporary events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== hwlicense.temporary
+*Severity*::
+ALERT
+*Description*::
+This message occurs when the system detects a temporary hardware license.
+*Corrective Action*::
+Install a valid permanent hardware license.
+*Syslog Message*::
+A temporary hardware license is installed on this node. Install a permanent hardware license before the expiration date: %s.
+*Parameters*::
+*date* (STRING): Expiration date of the temporary hardware license.

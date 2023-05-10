@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: secd-quark-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: secd.quark events
+---
+
+= secd.quark events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== secd.quark.ddns.updt.failure
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the server can not a send dynamic DNS (DDNS) update to the DNS server.
+*Corrective Action*::
+For "NOTIMP" errors, enable DDNS on the DNS server. For "REFUSED" errors, verify the DDNS settings on the DNS server. For all other errors, Contact NetApp technical support..
+*Syslog Message*::
+DDNS update failed for Vserver %s with error %s.
+*Parameters*::
+*vserverName* (STRING): Vserver associated with this operation.
+*cmdError* (STRING): Error from the attempted DDNS update.

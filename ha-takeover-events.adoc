@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: ha-takeover-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: ha.takeover events
+---
+
+= ha.takeover events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== ha.takeover.bypOptimChange
+*Severity*::
+INFORMATIONAL
+*Description*::
+This message occurs when the value of the 'bypass-takeover-optimization' parameter of the "storage failover" command is changed on a node.
+*Corrective Action*::
+(None).
+*Syslog Message*::
+(None).
+*Parameters*::
+*node_name* (STRING): Name of the node.
+*new_value* (STRING): New value of the 'bypass-takeover-optimization' parameter.

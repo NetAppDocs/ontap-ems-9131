@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: nblade-flexcachevolumeaccess-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: nblade.flexcachevolumeaccess events
+---
+
+= nblade.flexcachevolumeaccess events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Nblade.flexCacheVolumeAccess
+*Severity*::
+ERROR
+*Description*::
+This message occurs when a client tries to access a FlexCache volume through an unsupported protocol. Currently only NFSv3 clients are supported by FlexCache.
+*Corrective Action*::
+Make sure a FlexCache-supported protocol is specified for all client mount operations through which a FlexCache volume can be accessed. If using FlexCache, specify 'nfsvers=3' as an option for the 'mount' command on all clients accessing a FlexCache volume
+*Syslog Message*::
+Attempt to access FlexCache volume with MSID %u via %s denied.
+*Parameters*::
+*msid* (INT): MSID of the FlexCache volume being accessed.
+*protocol* (STRING): Client protocol.

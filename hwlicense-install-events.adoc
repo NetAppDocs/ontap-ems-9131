@@ -1,0 +1,63 @@
+---
+sidebar: sidebar
+permalink: hwlicense-install-events.html
+keywords: ems, message, messages, event, events, group, catalog
+summary: hwlicense.install events
+---
+
+= hwlicense.install events
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== hwlicense.install.fail.dl
+*Severity*::
+ERROR
+*Description*::
+This message occurs when download of the hardware license fails.
+*Corrective Action*::
+Check for command syntax errors, the correct file path, or network connection issues.
+*Syslog Message*::
+Failed to download hardware license (%s).
+*Parameters*::
+*package* (STRING): Full path of the download package.
+
+== hwlicense.install.fail.json
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the downloaded license file is not in valid JSON format.
+*Corrective Action*::
+Check the license file, making sure that it is in valid JSON format.
+*Syslog Message*::
+Hardware license file is not in valid JSON format.
+*Parameters*::
+(None).
+
+== hwlicense.install.fail.prog
+*Severity*::
+ERROR
+*Description*::
+This message occurs when the system cannot store the hardware license.
+*Corrective Action*::
+Retry the download. If it still fails, contact NetApp technical support.
+*Syslog Message*::
+Failed to store the hardware license.
+*Parameters*::
+(None).
+
+== hwlicense.install.fail.vrfy
+*Severity*::
+EMERGENCY
+*Description*::
+This message occurs when the system doesn't have a valid hardware license.
+*Corrective Action*::
+Contact NetApp technical support immediately.
+*Syslog Message*::
+No valid hardware license is installed.
+*Parameters*::
+(None).
