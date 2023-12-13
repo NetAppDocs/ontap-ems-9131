@@ -6,7 +6,6 @@ summary: cft.trans events
 ---
 
 = cft.trans events
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:

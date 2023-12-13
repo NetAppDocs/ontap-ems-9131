@@ -6,7 +6,6 @@ summary: hwlicense.install events
 ---
 
 = hwlicense.install events
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:

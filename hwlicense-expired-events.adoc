@@ -6,7 +6,6 @@ summary: hwlicense.expired events
 ---
 
 = hwlicense.expired events
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
