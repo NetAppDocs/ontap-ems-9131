@@ -13,6 +13,10 @@ summary: nblade.flexcachevolumeaccess events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a client tries to access a FlexCache volume through an unsupported protocol. Currently only NFSv3 clients are supported by FlexCache.
+
+
 == Nblade.flexCacheVolumeAccess
 *Severity*::
 ERROR

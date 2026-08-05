@@ -13,6 +13,10 @@ summary: accesscache.nearlimits events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the access cache module is near its limits for entries or export rules. Reaching these limits can prevent new clients from being able to mount and perform I/O on the storage system, and can also cause clients to be granted or denied access based on stale cached information.
+
+
 == AccessCache.NearLimits
 *Severity*::
 ALERT

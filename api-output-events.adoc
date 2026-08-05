@@ -13,6 +13,10 @@ summary: api.output events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when An invalid character was detected while checking the output for a Data ONTAP(R) API. All Data ONTAP API output must be valid UTF-8 characters. From time to time invalid output is detected. Most often this is due to hardware errors, for example, a disk-list-info API might query a disk drive for its serial number but receive invalid data from a malfunctioning drive.
+
+
 == api.output.invalid
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: aggr.provisioning events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message is issued when the aggregate provisioning recommendation generated for the cluster is found to be incomplete due to the presence of unasigned disks. Any spare disks that are not owned by a node in the cluster cannot contribute to the usable capacity of new aggregates.
+
+
 == aggr.provisioning.unassigned.detected
 *Severity*::
 NOTICE

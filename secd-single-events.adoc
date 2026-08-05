@@ -13,6 +13,10 @@ summary: secd.single events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the trusted domains for the CIFS home domain of a Vserver contains a single-label domain (SLD). An SLD configuration is not supported because it can cause CIFS access issues.
+
+
 == secd.single.label.domain
 *Severity*::
 ERROR

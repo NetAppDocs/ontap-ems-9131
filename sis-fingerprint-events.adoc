@@ -13,6 +13,10 @@ summary: sis.fingerprint events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a bad block is encountered while reading SIS metafiles. As a result, some of the fingerprint records used to identify blocks for use in deduplication might have been lost. The only impact from this is lower efficiency in deduplication.
+
+
 == sis.fingerprint.notify.lost
 *Severity*::
 NOTICE

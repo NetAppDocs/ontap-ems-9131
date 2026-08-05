@@ -13,6 +13,10 @@ summary: aggr.grow events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when request to grow an aggregate is completed successfully. The request to grow the aggregate could be DMAP-triggered or SDE-triggered.
+
+
 == aggr.grow.completed
 *Severity*::
 NOTICE

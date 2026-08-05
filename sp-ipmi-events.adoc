@@ -13,6 +13,10 @@ summary: sp.ipmi events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) is no longer receiving the heartbeats from the Service Processor (SP) after all the SP recovery actions have been taken. Without the SP, Data ONTAP cannot monitor the health of the hardware. To prevent hardware damage and data loss, the system will shut down.
+
+
 == sp.ipmi.lost.shutdown
 *Severity*::
 EMERGENCY

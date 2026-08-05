@@ -13,6 +13,10 @@ summary: moveagent.cutovercomp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a 'volume move' operation cannot complete cutover. The system continues to retry the operation until it is successful.
+
+
 == moveagent.cutovercomp.fail
 *Severity*::
 ALERT

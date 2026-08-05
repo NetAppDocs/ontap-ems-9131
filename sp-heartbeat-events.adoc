@@ -13,6 +13,10 @@ summary: sp.heartbeat events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated when the appliance detects resumption of Service Processor (SP) heartbeat notifications indicating that the Service Processor is now available. The earlier issue indicated by the sp.heartbeat.stopped event has been resolved.
+
+
 == sp.heartbeat.resumed
 *Severity*::
 INFORMATIONAL

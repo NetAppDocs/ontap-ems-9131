@@ -13,6 +13,10 @@ summary: telnet.threadcreate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when creation of telnet daemon threads or telnet session threads fails because required virtual memory is unavailable. This happens when the system is overloaded.
+
+
 == telnet.threadCreate.failure
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: bdfu.selected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when background disk firmware update selects a disk for firmware download. The disk contents will be copied to a suitable spare, the disk will be removed from the raid group and then firmware will be downloaded to it. After the firmware download is complete, the contents of the disk will be restored.
+
+
 == bdfu.selected
 *Severity*::
 INFORMATIONAL

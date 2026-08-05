@@ -13,6 +13,10 @@ summary: sm.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapMirror(R) labels are lost for all Snapshot(tm) copies on the vault destination. This happens when the Snapshot copy tag's metafile of a volume has an inconsistent header. As a result, SnapMirror cannot automatically delete existing Snapshot copies from the SnapVault(R) destination and can reach the maximum supported Snapshot copies limit. New Snapshot copies are not affected.
+
+
 == sm.dst.vol.no.tag.metadata
 *Severity*::
 ALERT

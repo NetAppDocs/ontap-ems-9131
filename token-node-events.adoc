@@ -13,6 +13,10 @@ summary: token.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the maximum number of tokens per node is reached. Tokens cannot be created in the node unless some existing tokens expire.
+
+
 == token.node.max.count.reached
 *Severity*::
 NOTICE

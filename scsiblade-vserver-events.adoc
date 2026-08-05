@@ -13,6 +13,10 @@ summary: scsiblade.vserver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a command or other internal operation becomes blocked within Data ONTAP(R). When this situation occurs, the corresponding Vserver cannot handle any other management changes for SAN until this condition is resolved. Also, the command that timed out might not have been completed, limiting access to LUNs within the Vserver.
+
+
 == scsiblade.vserver.op.timeout
 *Severity*::
 EMERGENCY

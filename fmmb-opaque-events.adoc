@@ -13,6 +13,10 @@ summary: fmmb.opaque events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the HA Mailbox opaque header is invalid. The opaque area in the HA Mailbox is used by HA mailbox clients, like RAID, to store persistent information.
+
+
 == fmmb.opaque.hdr.invalid
 *Severity*::
 ALERT

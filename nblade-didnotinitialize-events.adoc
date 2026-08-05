@@ -13,6 +13,10 @@ summary: nblade.didnotinitialize events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+The appliance's network process failed during initialization due to an internal error (likely there is not enough system memory available to start the necessary kernel threads). Because the network process is not running, file access to volumes on local aggregates is not currently available, and cluster and management virtual interfaces for this appliance are also not currently available.
+
+
 == Nblade.DidNotInitialize
 *Severity*::
 EMERGENCY

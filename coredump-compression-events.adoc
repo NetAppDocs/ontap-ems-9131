@@ -13,6 +13,10 @@ summary: coredump.compression events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a compressed kernel core is generated. Details about compression are reported.
+
+
 == coredump.compression.details
 *Severity*::
 INFORMATIONAL

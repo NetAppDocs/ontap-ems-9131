@@ -13,6 +13,10 @@ summary: diskown.autoassignproblem events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) attempts to assign a disk automatically, but the request fails. The failure could be due to a disk error or a user simultaneously assigning the disk to a storage system.
+
+
 == diskown.AutoAssignProblem
 *Severity*::
 ERROR

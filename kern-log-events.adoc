@@ -13,6 +13,10 @@ summary: kern.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the system messages log is rotated to a new name. This event will be the first event in the new message file. When in takeover mode, this event is also issued for the partner node.
+
+
 == kern.log.rotate
 *Severity*::
 NOTICE

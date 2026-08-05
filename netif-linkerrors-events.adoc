@@ -13,6 +13,10 @@ summary: netif.linkerrors events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the driver detects an excessive link error rate. Link errors are cyclic redundancy checks (CRC), runt frames, fragment, jabber, and alignment errors. Use the 'ifstat' command to display counts.
+
+
 == netif.linkErrors
 *Severity*::
 ERROR

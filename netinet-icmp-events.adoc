@@ -13,6 +13,10 @@ summary: netinet.icmp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an ICMPv4 redirect message is received. The redirect might be received due to either a misconfigured route or a man-in-the-middle ICMP redirect attack.
+
+
 == netinet.icmp.redirect
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: hwlicense.install events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when download of the hardware license fails.
+
+
 == hwlicense.install.fail.dl
 *Severity*::
 ERROR

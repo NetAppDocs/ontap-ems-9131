@@ -13,6 +13,10 @@ summary: san.iscsilifrepaired events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an iSCSI LIF is repaired during Vserver initialization. The LIF did not have a relative target port ID (rtpid) assigned, so a unique ID was associated with this LIF.
+
+
 == san.iscsiLifRepaired
 *Severity*::
 NOTICE

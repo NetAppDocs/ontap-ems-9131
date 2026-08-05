@@ -13,6 +13,10 @@ summary: sm.slc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SnapMirror(R) resync operation detects data divergence between the common Snapshot(tm) copy and the AFS on a resync destination volume where the destination volume is a SnapLock Compliance volume and the SnapMirror relationship is of "async-mirror" policy type. The resync operation preserves the data changes in a locked Snapshot copy for the duration of the current volume expiry time. If the volume expiry time is in the past or has not been set, then the Snapshot copy is locked for a duration of 30 days. The common Snapshot copy is also locked for the same duration.
+
+
 == sm.slc.async.resync.preserve
 *Severity*::
 NOTICE

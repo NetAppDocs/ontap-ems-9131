@@ -13,6 +13,10 @@ summary: snapmirror.conf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there an entry in the snapmirror.conf file is configured to use the outstanding value of greater than or equal to 10 seconds. This method of specifying cp-sync mode for the SnapMirror(R), is being deprecated in Data ONTAP(R) 7.3. You should use the new keyword "semi-sync" to configure cp-sync mode. See the na_snapmirror.conf man page for details.
+
+
 == snapmirror.conf.depre.cpsync
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: wafl.cdemap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an inconsistency is discovered in one of the metafile blocks. The inconsistency is automatically repaired upon detection.
+
+
 == wafl.cdemap.repaired.metafile
 *Severity*::
 ERROR

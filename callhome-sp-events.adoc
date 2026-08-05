@@ -13,6 +13,10 @@ summary: callhome.sp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) does not receive an expected "heartbeat" signal from the Service Processor (SP). Along with this message, log files from SP will be sent out for debugging. ONTAP will reset the SP to attempt to restore communication. The SP will be unavailable for up to two minutes while it reboots.
+
+
 == callhome.sp.hbt.missed
 *Severity*::
 NOTICE

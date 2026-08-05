@@ -13,6 +13,10 @@ summary: lmgr.mcc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system vetoes MetroCluster(TM) switchback or negotiated switchover because CIFS oplock recall fails. Some oplocks could not be recalled because of CPU overload, slow CIFS client response, or a large number of open files.
+
+
 == lmgr.mcc.oplock.recall.fail
 *Severity*::
 ERROR

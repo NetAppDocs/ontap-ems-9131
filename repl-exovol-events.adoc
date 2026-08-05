@@ -13,6 +13,10 @@ summary: repl.exovol events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an exo-volume scanner detects a loss of volume quiescence during a volume move operation. This typically occurs when there is too much data to transfer within the allowed cutover window.
+
+
 == repl.exovol.not.quiesced
 *Severity*::
 INFORMATIONAL

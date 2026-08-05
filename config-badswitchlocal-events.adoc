@@ -13,6 +13,10 @@ summary: config.badswitchlocal events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found to be attached locally, but there are also disks attached via switches. Mixed switch-attached and direct-attached disks are an illegal configuration.
+
+
 == config.BadSwitchLocal
 *Severity*::
 ALERT

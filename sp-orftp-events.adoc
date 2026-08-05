@@ -13,6 +13,10 @@ summary: sp.orftp events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a communication error while sending information to or receiving information from the Service Processor (SP). This error could be due to a communication error while the information is being sent or received, or the SP might not be operational.
+
+
 == sp.orftp.failed
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: sp.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the available memory of the log partition in the Service Processor (SP) or the Baseboard Management Controller (BMC) is low. If the log partition is full, it might lead to unexpected configuration issues.
+
+
 == sp.log.partition.full
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: vscan.odjob events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system fails to delete queued Vscan On-Demand job. The system tries to delete this job internally in a situation such as when Vserver is stopped or when a Vserver is failed over to some other cluster.
+
+
 == vscan.odJob.delete.failed
 *Severity*::
 ERROR

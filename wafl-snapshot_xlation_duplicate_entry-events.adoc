@@ -13,6 +13,10 @@ summary: wafl.snapshot_xlation_duplicate_entry events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when WAFL(R) determines that there are duplicate Snapshot(tm) copy entries in the Snapshot copy translation table. Access to this Snapshot copy is disabled until the problem is resolved.
+
+
 == wafl.snapshot_xlation_duplicate_entry
 *Severity*::
 ALERT

@@ -13,6 +13,10 @@ summary: snapvault.src events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SnapVault(R) source appliance receives a transfer request when the service is not enabled. The license needed depends on the transfer type. For SnapVault restore transfers, the appliance must have a secondary license. For other transfers, the appliance must have a primary license.
+
+
 == snapvault.src.notEnabled
 *Severity*::
 ERROR

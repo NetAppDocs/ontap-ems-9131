@@ -13,6 +13,10 @@ summary: wafl.inconsistent events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the ONTAP(R) kernel detects an inconsistent WAFL(R) Access Control List (ACL) on disk. Access to this ACL is disabled until you repair it by running wafliron.
+
+
 == wafl.inconsistent.acl
 *Severity*::
 ERROR

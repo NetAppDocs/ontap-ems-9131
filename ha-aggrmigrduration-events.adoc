@@ -13,6 +13,10 @@ summary: ha.aggrmigrduration events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs every 60 seconds during an aggregate migration operation. It indicates the current phase of the aggregate migration, the high-availability (HA) operation that triggered the aggregate migration, and the elapsed time since the start of the current phase of the aggregate migration.
+
+
 == ha.aggrMigrDuration
 *Severity*::
 NOTICE

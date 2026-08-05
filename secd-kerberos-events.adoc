@@ -13,6 +13,10 @@ summary: secd.kerberos events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a "time error"(clock skew, time skew, time out of bounds). This error indicates that there is a time discrepancy between client and node or client and Key Distribution Center (KDC). The Kerberos authentication request from the client or the node was forwarded to the KDC and it failed because the timestamp encrypted in the Kerberos ticket was different by more than the maximum time difference that is configured on the KDC.
+
+
 == secd.kerberos.clockskew
 *Severity*::
 ERROR

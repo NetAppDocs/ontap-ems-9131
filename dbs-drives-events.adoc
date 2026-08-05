@@ -13,6 +13,10 @@ summary: dbs.drives events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Distributed Block Store (DBS) has one or more failed drives. This can be happen due to: no access, too many failures, a missing drive, inaccessible master service for the node, or the drive is locked and cannot be unlocked or the authentication key cannot be accessed.
+
+
 == dbs.drives.failed
 *Severity*::
 ERROR

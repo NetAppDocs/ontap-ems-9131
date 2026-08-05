@@ -13,6 +13,10 @@ summary: scsiblade.import events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when attributes of a SAN LUN under LUN import are modified. This is not a supported operation and the LUN import session needs to be deleted and re-created.
+
+
 == scsiblade.import.attr.mod
 *Severity*::
 ERROR

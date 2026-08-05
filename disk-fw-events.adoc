@@ -13,6 +13,10 @@ summary: disk.fw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects disks with firmware that is not up-to-date. The background firmware update program will update the firmware automatically if the correct firmware files are in place.
+
+
 == disk.fw.autodownrev
 *Severity*::
 INFORMATIONAL

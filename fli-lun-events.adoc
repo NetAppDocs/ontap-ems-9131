@@ -13,6 +13,10 @@ summary: fli.lun events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a checkpoint record delete fails. Checkpoint is metadata information stored with the NetApp LUN attribute stream for tracking import progress. An attempt is made to delete this metadata during import stop or delete operations.
+
+
 == fli.lun.import.checkpoint
 *Severity*::
 ERROR

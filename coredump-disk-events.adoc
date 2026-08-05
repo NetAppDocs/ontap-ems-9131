@@ -13,6 +13,10 @@ summary: coredump.disk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a kernel core is written to disk. Details about disk operations are reported.
+
+
 == coredump.disk.write.details
 *Severity*::
 INFORMATIONAL

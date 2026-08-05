@@ -13,6 +13,10 @@ summary: callhome.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detected a disk drive device that did not receive qualification from NetApp. Unqualified disk drives can cause serious damage to the system, and the system shuts down within 72 hours to prevent this potential damage. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.device.qual
 *Severity*::
 ALERT

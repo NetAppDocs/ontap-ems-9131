@@ -13,6 +13,10 @@ summary: air.fc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when inconsistencies are detected in the origin of this FlexCache(R) volume. The affected files remain inaccessible from this FlexCache volume until the corrective action is taken.
+
+
 == air.fc.origin.corrupt
 *Severity*::
 ALERT

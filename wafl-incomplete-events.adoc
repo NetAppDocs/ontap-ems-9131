@@ -13,6 +13,10 @@ summary: wafl.incomplete events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs when the WAFL(R) kernel detects incomplete inode to path information for an inode on disk. This will cause the inode to path database to be reconstructed.
+
+
 == wafl.incomplete.i2p
 *Severity*::
 ERROR

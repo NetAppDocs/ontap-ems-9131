@@ -13,6 +13,10 @@ summary: sis.upgrademetafile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Single Instance Storage (SIS) metafiles cannot be created during a Data ONTAP(R) upgrade. The 'sis status' command will not display this volume. SIS operations cannot be triggered manually or according to a schedule for the volume.
+
+
 == sis.upgrademetafile.failed
 *Severity*::
 ERROR

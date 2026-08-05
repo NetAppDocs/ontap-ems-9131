@@ -13,6 +13,10 @@ summary: raid.fm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event contains summary information for the disaster takeover. It is only generated if a disaster takeover occurs.
+
+
 == raid.fm.disasterSummary
 *Severity*::
 ERROR

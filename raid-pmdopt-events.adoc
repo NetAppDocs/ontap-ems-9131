@@ -13,6 +13,10 @@ summary: raid.pmdopt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+The option raid.panic.missing.disks was set to panic and halt the appliance when a hardware error prevents access to multiple file system disks. However, the regular value of that option is not accessible during boot. Therefore, the option value is stored in the firmware environment variable halt-missing-disks, if the appliance has such capability. This event occurs hourly as long as the two values are not equal. Here are some examples of possible undesirable behavior caused by inconsistency between the two values: If halt-missing-disks is 0 and option raid.panic.missing.disks is 2, and if a failure causes the appliance to lose access to two or more file system disks, the appliance panics but does not halt. Multiple reconstructions might start after reboot, and that is what would have been prevented by setting the option. If halt-missing-disks is 2 and option raid.panic.missing.disks is 0, the appliance does not panic if it loses access to multiple file system disks. However, it might halt if multiple filesystem disks are missing during boot. If one value is 2 and the other is 3, the appliance panics and halts as expected only if a failure prevents access to three or more file system disks.
+
+
 == raid.pmdOpt.misconfigured
 *Severity*::
 ERROR

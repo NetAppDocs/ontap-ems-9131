@@ -13,6 +13,10 @@ summary: nblade.vscannoregdscanner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when AV Connector notifies ONTAP(R) that it does not have a registered scan-engine. This could happen if the scan-engine never registered or unregistered because of some reason like it is misconfigured or shutdown. This might cause data unavailability if the scan-mandatory option is enabled.
+
+
 == Nblade.vscanNoRegdScanner
 *Severity*::
 ERROR

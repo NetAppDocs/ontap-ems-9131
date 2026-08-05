@@ -13,6 +13,10 @@ summary: flexcache.name events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the FlexCache(R) volume rename operation fails to synchronize the FlexCache name information to the origin cluster. Because of this failure, the "volume flexcache origin show-caches" command shows the old FlexCache volume name for the origin relationship.
+
+
 == flexcache.name.sync.failed
 *Severity*::
 ERROR

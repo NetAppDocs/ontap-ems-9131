@@ -13,6 +13,10 @@ summary: spm.enclmgmtd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Enclosure Management Daemon (enclmgmtd) involuntarily terminates. This daemon is responsible for enclosure monitoring for this platform. This failure does not affect client access. However, enclosure monitoring might be in a degraded state if the service fails to restart.
+
+
 == spm.enclmgmtd.process.exit
 *Severity*::
 NOTICE

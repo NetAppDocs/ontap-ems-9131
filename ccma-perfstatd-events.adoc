@@ -13,6 +13,10 @@ summary: ccma.perfstatd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Perfstat daemon (perfstatd) has been disabled for more than an hour. This is caused by setting the -perfstat-sampling-period value to 0. This message will be repeated every hour perfstatd is turned off. The messages will only displayed once a day.
+
+
 == ccma.perfstatd.disabled
 *Severity*::
 ERROR

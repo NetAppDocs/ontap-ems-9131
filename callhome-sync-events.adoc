@@ -13,6 +13,10 @@ summary: callhome.sync events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) cannot create a new base Snapshot copy in a SyncMirror aggregate after multiple attempts. Systems using RAID SyncMirror require aggregate Snapshot copies for normal operation. Periodically, ONTAP creates a new base Snapshot copy with a name similar to "mirror_resync.1201023128(filer_name)." Once created, ONTAP deletes the old base Snapshot copy. The base Snapshot copy is used to optimize resynchronization when one plex goes offline. Short-lived circumstances when a new aggregate Snapshot copy cannot be created are not unusual. ONTAP initiates background processes to reclaim space and allow creation of new aggregate Snapshot copies. This message is issued when ONTAP cannot create a new base Snapshot copy after waiting a reasonable time. If the aggregate lacks an existing SyncMirror base Snapshot copy, then if one plex goes offline, subsequent resynchronization must copy all data in the aggregate - this can be a very long process. ONTAP issues this message when there is no SyncMirror base Snapshot copy and a new one cannot be created in repeated attempts in the last ten minutes (by default). If an old base Snapshot copy is present, this condition is less urgent. However, since space reclamation is likely to be slower, ONTAP waits up to two hours (by default) before issuing this message. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.sync.mirror.nospc
 *Severity*::
 ALERT

@@ -13,6 +13,10 @@ summary: netif.overtemperror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a network port is too hot or a sensor has malfunctioned. Depending on how the port is deployed, the failure may disrupt user data access, node access or cluster communication.
+
+
 == netif.overTempError
 *Severity*::
 EMERGENCY

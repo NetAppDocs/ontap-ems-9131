@@ -13,6 +13,10 @@ summary: cdpd.recv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the CDP (Cisco Discovery Protocol) daemon running on the storage controller receives more unique neighbor advertisements than it can cache. The storage controller stops saving incoming CDP advertisements after the CDP neighbor cache has the maximum allowed neighbor entries. The CDP daemon will start processing new advertisements again after entries in the CDP neighbor cache start timing out.
+
+
 == cdpd.recv.cacheOverflow
 *Severity*::
 ERROR

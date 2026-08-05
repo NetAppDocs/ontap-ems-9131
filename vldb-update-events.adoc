@@ -13,6 +13,10 @@ summary: vldb.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the aggregate ownership update fails during switchover. The update is initiated by the management gateway daemon (mgwd), to fetch aggregate information from all of the nodes in the cluster and to update the volume location database (VLDB).
+
+
 == vldb.update.duringsofail
 *Severity*::
 EMERGENCY

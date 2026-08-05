@@ -13,6 +13,10 @@ summary: spm.shmd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the System Health Monitor process (shmd) involuntarily terminates. The termination of this process can affect the system health management and diagnosis feature.
+
+
 == spm.shmd.process.exit
 *Severity*::
 ALERT

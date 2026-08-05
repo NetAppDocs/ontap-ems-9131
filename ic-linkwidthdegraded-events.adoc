@@ -13,6 +13,10 @@ summary: ic.linkwidthdegraded events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the high-availability (HA) interconnect detects a degraded link width. This can affect the write performance of the system.
+
+
 == ic.linkWidthDegraded
 *Severity*::
 ERROR

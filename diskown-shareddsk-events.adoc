@@ -13,6 +13,10 @@ summary: diskown.shareddsk events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is shared by multiple nodes in a non-HA or stand-alone configuration. If the procedure to convert an HA configuration to a non-HA configuration is not followed properly, the system may end up either having disks whose partitions are owned by another node, or owning partitions on non-local disks.
+
+
 == diskown.sharedDsk.nonHACfg
 *Severity*::
 ERROR

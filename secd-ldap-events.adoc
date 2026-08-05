@@ -13,6 +13,10 @@ summary: secd.ldap events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the -bind-dn user is not configured and the -bind-as-cifs-server option is set to false in the Lightweight Directory Access Protocol (LDAP) client configuration. This LDAP configuration is not recommended because it might result in CIFS credentials being used for authentication if CIFS configuration is present (even though -bind-as-cifs-server is not set). It might also result in anonymous authentication attempts.
+
+
 == secd.ldap.bindDn.missing
 *Severity*::
 ALERT

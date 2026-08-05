@@ -13,6 +13,10 @@ summary: callhome.hm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an error is detected during the periodic health health monitoring of system health monitors. System health monitors create alerts for potential problems detected while monitoring the subsystem. The alerts contain information about probable cause along with recommended actions to rectify the problem. This message is generated after every polling interval if new alerts are detected during this interval. Polling interval is configurable. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.hm.alert.critical
 *Severity*::
 ALERT

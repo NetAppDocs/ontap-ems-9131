@@ -13,6 +13,10 @@ summary: callhome.vfiler events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs on the destination controller during the final phase of migrating a vfiler when the 120 second time limit has been reached . During the final phase of migrating a vfiler from a source controller to a destination controller, input/output data access is stalled until the destination is ready. The amount of time spent with I/O data access stalled within 120 seconds, since many pre-checks have be done to ensure this can be achieved. With the time limit reached, operations will resume to using the vfiler on the source controller. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.vfiler.move.to.dst
 *Severity*::
 ALERT

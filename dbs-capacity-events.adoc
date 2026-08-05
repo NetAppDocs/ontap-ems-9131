@@ -13,6 +13,10 @@ summary: dbs.capacity events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Distributed Block Store (DBS) detects that more than half of the cluster capacity is available on only one node. To achieve high availability (HA), the DBS effectively reduces the capacity of the largest node so that some of its capacity is stranded (unusable).
+
+
 == dbs.capacity.stranded
 *Severity*::
 NOTICE

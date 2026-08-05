@@ -13,6 +13,10 @@ summary: master.cast events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the master service of the associated node cannot connect to current cluster master. It tries to cast a vote against current cluster master in the global database. The current cluster master is demoted if more than half of the cluster nodes vote against it, and a new cluster master is promoted.
+
+
 == master.cast.cm.vote.against
 *Severity*::
 NOTICE

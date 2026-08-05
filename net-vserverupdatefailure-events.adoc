@@ -13,6 +13,10 @@ summary: net.vserverupdatefailure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a node cannot be updated with Vserver configuration. This can result in that node not being able to host LIFs.
+
+
 == net.vServerUpdateFailure
 *Severity*::
 NOTICE

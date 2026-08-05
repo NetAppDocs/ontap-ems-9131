@@ -13,6 +13,10 @@ summary: ata.timeout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an I/O request to the ATA driver times out. This might be indicative of an overloaded back-end storage subsystem. The retries for this I/O operation have been exhausted; the I/O operation has failed and will not be retried.
+
+
 == ata.timeout.failed
 *Deprecated*::
 Last used 9.2

@@ -13,6 +13,10 @@ summary: sp.servprocd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in the following cases: 1. Scheduling of Service Processor (SP) firmware update failed. 2. SP firmware update failed after it has been scheduled. 3. Post-update checks have failed.
+
+
 == sp.servprocd.upd.error
 *Severity*::
 ERROR

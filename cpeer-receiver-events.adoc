@@ -13,6 +13,10 @@ summary: cpeer.receiver events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an incoming cluster peer request using the system-generated passphrase. However, the cluster peer request failed because there is no matching outstanding cluster peer offers for the request in the system.
+
+
 == cpeer.receiver.noindex
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: quota.reinit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an unplanned MetroCluster(tm) switchover happens. If a quota operation was running on a volume located on a disaster site during the unplanned switchover, the quota database could be in an incomplete state and quotas need to be reinitialized on that volume.
+
+
 == quota.reinit.required
 *Severity*::
 ERROR

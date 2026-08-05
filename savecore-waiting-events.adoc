@@ -13,6 +13,10 @@ summary: savecore.waiting events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Savecore is running synchronously, and the console will be unresponsive until it is complete. This happens when savecore is given the "-f" or "-w" argument, or when previous attempts to save the core asynchronously fail.
+
+
 == savecore.waiting
 *Severity*::
 INFORMATIONAL

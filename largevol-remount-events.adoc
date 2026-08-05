@@ -13,6 +13,10 @@ summary: largevol.remount events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the "is-large-size-enabled" property is set on a FlexVol volume or Flexgroup volume, which is NFS mounted for client access. Setting this field enables volumes to support large files, from 16TB to 128TB. If the volume has already been mounted via NFS, then the NFS client caches the older maximum file size, which is 16TB. For support of files up to 128TB to take effect, the NFS client needs to remount the volume. This issue does not occur if automount has been configured on NFS client to mount the volumes.
+
+
 == largevol.remount.nfsclient
 *Severity*::
 NOTICE

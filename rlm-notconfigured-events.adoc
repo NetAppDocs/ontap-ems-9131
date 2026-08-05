@@ -13,6 +13,10 @@ summary: rlm.notconfigured events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs weekly to remind you to configure the Remote LAN Module (RLM). The RLM is a physical device that is incorporated into your system to provide remote access and remote management capabilities. To use the full functionality of RLM, you need to configure it first.
+
+
 == rlm.notConfigured
 *Severity*::
 ERROR

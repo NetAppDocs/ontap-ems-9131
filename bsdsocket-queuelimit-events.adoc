@@ -13,6 +13,10 @@ summary: bsdsocket.queuelimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the number of connection requests for a socket reaches the maximum. These connection requests include partially completed connections and connections that are ready to be accepted.
+
+
 == bsdsocket.queueLimit.reached
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: dump.terminate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated during dump termination, we see if we can retrieve the name of the dump. If we are unable to retrieve the name of the dump then dump id that is terminated is notified or else both dump id and name of the dump are notified
+
+
 == dump.terminate
 *Severity*::
 NOTICE

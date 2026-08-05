@@ -13,6 +13,10 @@ summary: callhome.spm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a subsystem is not fully operational after one or more restarts and a restart threshold has been reached by the Service Process Manager (SPM). The inconsistency might be caused by external events such network data, previous configuration changes, software changes, firmware changes, or hardware changes. The message should not occur more then once per day. The underlying subsystem might be related to one or more operational systems such as management, authentication, network access, and so on. Performance issues and operational difficulties might have been exhibited before this event. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.spm.process.maxexit
 *Severity*::
 ERROR

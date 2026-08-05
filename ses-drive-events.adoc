@@ -13,6 +13,10 @@ summary: ses.drive events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when disk drives are placed in locations that do not provide for proper signal integrity. In some older shelf types only, circuitry in the disk drives conditions the signals on their way through the disk shelves. If the disk drives are not in certain locations, the signal might degrade and cause errors. Disk drives must be kept in the proper locations even if one or more disk drives are removed for maintenance reasons.
+
+
 == ses.drive.badPlacement
 *Severity*::
 ALERT

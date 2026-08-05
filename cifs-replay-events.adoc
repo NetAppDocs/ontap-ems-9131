@@ -13,6 +13,10 @@ summary: cifs.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when configuration is not synchronized. This might cause the node experiencing the problem to become unresponsive to data access.
+
+
 == cifs.replay.failure
 *Severity*::
 ALERT

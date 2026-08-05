@@ -13,6 +13,10 @@ summary: wafl.fs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during volume mount, when the fractional reservation value for a volume is found to be corrupted. This is necessary because the storage system software only supports fractional reservation values of 0% and 100%. The guarantee type setting of a volume determines what the correct fractional reservation must be. For volumes with a guarantee type of VOLUME or NONE the value must be corrected to be 0%. For volumes with a guarantee type of FILE the value must be set to 100%.
+
+
 == wafl.fs.corrupt.fr.pct.changed
 *Severity*::
 NOTICE

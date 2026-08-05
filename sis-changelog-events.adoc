@@ -13,6 +13,10 @@ summary: sis.changelog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Single Instance Storage (SIS) change logging metafile is full. Change logging is stopped. New writes to the volume will not be change logged until the next SIS operation.
+
+
 == sis.changelog.full
 *Severity*::
 ERROR

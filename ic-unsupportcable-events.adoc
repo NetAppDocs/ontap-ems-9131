@@ -13,6 +13,10 @@ summary: ic.unsupportcable events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an unsupported cable is detected on the high-availability interconnect port. An unsupported cable might cause the interconnect to be unstable, resulting in unsynchronized logs.
+
+
 == ic.unsupportCable
 *Severity*::
 ERROR

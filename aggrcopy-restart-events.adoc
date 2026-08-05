@@ -13,6 +13,10 @@ summary: aggrcopy.restart events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when 'aggr copy' checks for restart capability on the destination storage system fail. The 'aggr copy' transfer operation cannot be restarted. It starts as usual from the beginning (0 %%) without any further user action.
+
+
 == aggrcopy.restart.dst.chkFail
 *Severity*::
 NOTICE

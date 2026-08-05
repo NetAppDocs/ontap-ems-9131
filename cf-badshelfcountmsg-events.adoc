@@ -13,6 +13,10 @@ summary: cf.badshelfcountmsg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs if we are sent an invalid negotiated failover shelf count message. The message size is incorrect. This is likely due to an InterConnect problem.
+
+
 == cf.badShelfCountMsg
 *Severity*::
 ERROR

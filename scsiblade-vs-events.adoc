@@ -13,6 +13,10 @@ summary: scsiblade.vs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the local node fails to purge the SAN configuration cache for a Vserver. Manual intervention is required to allow reinitialization of the specified Vserver.
+
+
 == scsiblade.vs.purge.fail
 *Severity*::
 EMERGENCY

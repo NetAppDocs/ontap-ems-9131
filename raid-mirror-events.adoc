@@ -13,6 +13,10 @@ summary: raid.mirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SyncMirror(R) aggregate uses aggregate Snapshot(tm) copies other than SyncMirror aggregate Snapshot copies. SyncMirror uses aggregate Snapshot copies to allow fast resynchronization after one plex was temporarily offline. However, Data ONTAP(R) sometimes must delete aggregate Snapshot copies to preserve space guarantees for flexible volumes. If that happens during SyncMirror resynchronization or while one plex is offline, the mirror must be reinitialized by copying all data from one plex to another. To reduce the chance of deleting SyncMirror Snapshot copies, you should not create or schedule aggregate Snapshot copies in SyncMirror aggregates.
+
+
 == raid.mirror.aggrSnapUse
 *Severity*::
 NOTICE

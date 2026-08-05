@@ -13,6 +13,10 @@ summary: certificate.insecure events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an installed certificate uses a hash function that is no longer considered secure. Client-server communication using this certificate should be presumed insecure, and could be disrupted.
+
+
 == certificate.insecure.hash
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: lmgr.lockstate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot clean up the lock state associated with the active file system. The stale lock state can lead to problems accessing files through NAS protocols.
+
+
 == lmgr.lockstate.cleanup.fail
 *Severity*::
 ERROR

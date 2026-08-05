@@ -13,6 +13,10 @@ summary: vsa.cloud events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Cloud Volumes ONTAP(R) detects disk I/O (Reads) throttling on its attached disks. Disk I/O throttling might be initiated by the underlying host or cloud provider when it detects that disk I/Os have reached a certain threshold level mandated per virtual machine instance.
+
+
 == vsa.cloud.diskReadsThrottled
 *Severity*::
 NOTICE

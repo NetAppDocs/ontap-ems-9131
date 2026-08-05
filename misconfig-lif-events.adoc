@@ -13,6 +13,10 @@ summary: misconfig.lif events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the record for the incorrectly placed LIF is lost during MetroCluster(TM) switchover or switchback. As a result, the "metrocluster check lif show" command will not be able to fetch the incorrectly placed LIF on the surviving cluster after executing "metrocluster switchover" and on the disaster cluster after executing "metrocluster switchback". Also, the incorrectly placed LIF cannot be placed correctly with the "metrocluster check lif repair-placement" command.
+
+
 == misconfig.lif.info.lost
 *Severity*::
 NOTICE

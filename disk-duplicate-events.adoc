@@ -13,6 +13,10 @@ summary: disk.duplicate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when duplicate disk names are detected. This can be caused by corruption of the disk's shelf id or bay number or failure to determine the stack id. There is no known impact to functional systems, but failure to correct this error may result in operations taken on the wrong disk and ambiguity where the disks are referenced.
+
+
 == disk.duplicate.name
 *Severity*::
 ERROR

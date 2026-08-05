@@ -13,6 +13,10 @@ summary: mgmtgwd.volcreatedrestricted events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume is created in the restricted state. This message is used to update the status of the health dashboard.
+
+
 == mgmtgwd.volcreatedrestricted
 *Severity*::
 NOTICE

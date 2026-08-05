@@ -13,6 +13,10 @@ summary: reg.transaction events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R) cannot commit a registry transaction. A system registry transaction is used to update a group of registry keys simultaneously.
+
+
 == reg.transaction.commitFail
 *Severity*::
 ERROR

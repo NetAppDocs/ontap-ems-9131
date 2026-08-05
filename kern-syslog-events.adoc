@@ -13,6 +13,10 @@ summary: kern.syslog events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is generated when we detect that syslog messages were dropped before being logged. Syslog messages may be dropped if one or more Data ONTAP subsystems are generating many syslog messages over short period of time. That can be an indicator that those subsystems are experiencing problems that need to be resolved.
+
+
 == kern.syslog.drops
 *Severity*::
 ERROR

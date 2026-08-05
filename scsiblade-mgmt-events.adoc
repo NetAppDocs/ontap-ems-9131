@@ -13,6 +13,10 @@ summary: scsiblade.mgmt events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SAN management event is lost because the system could not allocate enough free memory. Access to LUNs within the Vserver might be affected. The corresponding Vserver might not be available to process any other management changes and events until the node is rebooted to clear this error condition.
+
+
 == scsiblade.mgmt.evt.lost.mem
 *Severity*::
 ERROR

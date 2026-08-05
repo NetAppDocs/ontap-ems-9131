@@ -13,6 +13,10 @@ summary: cpeer.pm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the peer manager job experiences a transient failure. The peer manager job periodically contacts one peer cluster and performs updates of cluster-wide state necessary to support cross-cluster enabled features.
+
+
 == cpeer.pm.update.warn
 *Severity*::
 ERROR

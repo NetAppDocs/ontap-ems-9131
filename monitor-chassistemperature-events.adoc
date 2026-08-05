@@ -13,6 +13,10 @@ summary: monitor.chassistemperature events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the chassis temperature is too cool. This is a warning message.
+
+
 == monitor.chassisTemperature.cool
 *Severity*::
 ALERT

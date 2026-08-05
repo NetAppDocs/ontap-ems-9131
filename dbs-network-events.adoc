@@ -13,6 +13,10 @@ summary: dbs.network events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a distributed block store detects network configuration or connectivity errors on nodes in the cluster. Multiple error conditions are mapped to this one event. The distributed block store is responsible for managing the data that backs the flexible volumes.
+
+
 == dbs.network.error.fault
 *Severity*::
 ERROR

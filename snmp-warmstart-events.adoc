@@ -13,6 +13,10 @@ summary: snmp.warmstart events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SNMP daemon is reinitializing itself with a warmStart. A warmStart(1) trap signifies that no configuration changes are made to the agent or the protocol entity implementation during the reinitialization.
+
+
 == snmp.warmstart.trap
 *Severity*::
 INFORMATIONAL

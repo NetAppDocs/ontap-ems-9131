@@ -13,6 +13,10 @@ summary: dbs.secondary events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Distributed Block Store (DBS) detects that Slice volume secondary write cache has reached the first fullness warning threshold. Secondary cache starts to fill when Slice service write requests to the Block service (and by extension the FireStorm service) are not receiving replies. Client write performance may be reduced if this condition persists. The DBS is responsible for managing the data that backs the FlexVols(R).
+
+
 == dbs.secondary.cache.thresh
 *Severity*::
 ALERT

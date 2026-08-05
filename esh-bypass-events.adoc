@@ -13,6 +13,10 @@ summary: esh.bypass events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is a disk bypass event. It indicates that a disk is bypassed by the embedded switched hub (ESH) due to one of the following reasons: Manually bypassed; Transmitter fault; LIP F8; Data timeout; Receiver loss of signal; Comma loss of signal; Loop test before insert failure; Redundant port configuration; Exceeded stall threshold; Exceeded word error threshold; Exceeded CRC error threshold; or Exceeded clock delta error threshold.
+
+
 == esh.bypass.err.disk
 *Severity*::
 ERROR

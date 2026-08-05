@@ -13,6 +13,10 @@ summary: dbs.encr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Distributed Block Store (DBS) enables or disables encryption at rest on a self-encrypting drive. Encrypting drives automatically encrypt and decrypt the data as it is written or read from the drive media. Enabling encryption at rest protects the data from unauthorized access if the drive is power-cycled. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+
+
 == dbs.encr.at.rest
 *Severity*::
 NOTICE

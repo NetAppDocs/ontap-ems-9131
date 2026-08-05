@@ -13,6 +13,10 @@ summary: ha.bdfu events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during storage failover (SFO) giveback or aggregate relocation when the source node cannot reenable background disk firmware update (BDFU) on the destination node. BDFU will be reenabled automatically on the destination node after all the aggregates have been given back.
+
+
 == ha.bdfu.notEnabledOnDest
 *Severity*::
 INFORMATIONAL

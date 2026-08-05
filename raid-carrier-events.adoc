@@ -13,6 +13,10 @@ summary: raid.carrier events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the evacuation operation is complete on a disk in a multidisk carrier that contains at least one failed disk. When a disk in a multidisk carrier fails, Data ONTAP(R) initiates evacuation of the other disks in the carrier so that you can replace the carrier after the evacuation is done. The disk's amber Attention LED is lit continuously after the carrier evacuation is complete.
+
+
 == raid.carrier.diskEvacuated
 *Severity*::
 NOTICE

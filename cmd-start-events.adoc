@@ -13,6 +13,10 @@ summary: cmd.start events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Counter Manager daemon (cmd) fails to start. The failure impacts the continuous archiving of performance data, which is used by technical support to troubleshoot system issues.
+
+
 == cmd.start.unsuccessful
 *Severity*::
 ERROR

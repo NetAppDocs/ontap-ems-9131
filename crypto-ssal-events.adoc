@@ -13,6 +13,10 @@ summary: crypto.ssal events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Secure Storage Access Layer(SSAL) operation fails. This might cause import of the onboard key hierarchy to fail and might result in a temporary loss of access to any data secured using the SSAL.
+
+
 == crypto.ssal.failed
 *Severity*::
 ALERT

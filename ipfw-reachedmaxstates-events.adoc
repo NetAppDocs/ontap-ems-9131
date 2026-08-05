@@ -13,6 +13,10 @@ summary: ipfw.reachedmaxstates events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the ipfw firewall fails to create a new dynamic state entry for a "keep-state" rule because the number of dynamic state entries has reached the maximum allowed value of 32768. The "keep-state" rule is used by the firewall to keep track of whether a connection is established. States are maintained by firewall for TCP, UDP, BGP, and ESP packets. This message occurs at most once every 60 seconds; it lists the most recent connections to reach the limit.
+
+
 == ipfw.ReachedMaxStates
 *Severity*::
 NOTICE

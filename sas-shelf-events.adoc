@@ -13,6 +13,10 @@ summary: sas.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects that two or more SAS (serial attached SCSI) disk shelves have the same shelf ID. The SAS domain is functional, but references to disk shelves will be based on disk shelf serial numbers, not disk shelf IDs.
+
+
 == sas.shelf.conflict
 *Severity*::
 ERROR

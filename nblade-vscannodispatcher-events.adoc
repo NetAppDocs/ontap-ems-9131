@@ -13,6 +13,10 @@ summary: nblade.vscannodispatcher events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the vscan-dispatcher component cannot be created. This might be due to internal errors on the system, such as nonavailability of memory. This might cause data unavailability if the scan-mandatory option is enabled.
+
+
 == Nblade.vscanNoDispatcher
 *Severity*::
 ALERT

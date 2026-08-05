@@ -13,6 +13,10 @@ summary: nvram.flash events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs periodically when the capacity of the NVRAM flash memory spare blocks is low, before it becomes critically low. This issue typically indicates that the NVRAM hardware is approaching the end of its service life and should be replaced soon.
+
+
 == nvram.flash.spare.low
 *Severity*::
 ALERT

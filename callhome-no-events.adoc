@@ -13,6 +13,10 @@ summary: callhome.no events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume is out of inodes, which refer to individual files, other types of files, and directories. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.no.inodes
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: vldb.adtcons events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Remote Procedure Call (RPC) from the Volume Location Database (VLDB) to the Management Gateway (MGWD) fails. This RPC updates the audit resource database when a volume belonging to a Vserver on a specific aggregate is deleted or moved from that aggregate and that volume is the last volume belonging to that Vserver residing on that aggregate.
+
+
 == vldb.adtcons.rpcfailure
 *Severity*::
 ERROR

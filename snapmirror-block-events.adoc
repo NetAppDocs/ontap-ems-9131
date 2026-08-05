@@ -13,6 +13,10 @@ summary: snapmirror.block events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SnapMirror(R) operation needs to reconstruct the block type bits. The SnapMirror transfer is paused, resuming only after the block type bits for the data to be transferred have been reconstructed.
+
+
 == snapmirror.block.on.reconstruct
 *Severity*::
 NOTICE

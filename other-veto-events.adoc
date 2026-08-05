@@ -13,6 +13,10 @@ summary: other.veto events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a giveback or aggregate relocation operation fails but ONTAP(R) software cannot determine the specific operation type. The specific operation failed due to the unavailability of volume encryption keys for the encrypted volumes of the aggregate on the partner or destination node.
+
+
 == other.veto.kmgr.keysmissing
 *Severity*::
 ERROR

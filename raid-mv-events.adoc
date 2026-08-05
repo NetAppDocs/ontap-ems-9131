@@ -13,6 +13,10 @@ summary: raid.mv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when aggregates are brought online in a deferred way after mirror votes are retrieved automatically. Mirror votes are retrieved from the replicated database (RDB) in a deferred way when the RDB comes online.
+
+
 == raid.mv.defVol.online
 *Severity*::
 INFORMATIONAL

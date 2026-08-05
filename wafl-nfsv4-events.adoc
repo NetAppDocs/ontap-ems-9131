@@ -13,6 +13,10 @@ summary: wafl.nfsv4 events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot map an ID stored in the Access Control Entry (ACE) to a valid UNIX(R) User ID/Group ID (UID/GID) pair. This failure makes this ACE an invalid one, resulting in a possible loss of access to the file or directory for which this ACE was set.
+
+
 == wafl.nfsv4.acl.not.mapped
 *Severity*::
 ERROR

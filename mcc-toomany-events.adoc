@@ -13,6 +13,10 @@ summary: mcc.toomany events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a volume is added to an aggregate in which the recommended maximum number of volumes for an aggregate in a MetroCluster setup is exceeded. An excessive number of volumes in a MetroCluster aggregate can result in high failover times, which may disrupt data availability from the affected node.
+
+
 == mcc.toomany.vols.per.aggr
 *Severity*::
 ALERT

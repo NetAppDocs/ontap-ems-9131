@@ -13,6 +13,10 @@ summary: secd.dc events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Windows Domain Controller (DC), while responding to an MSRPC request from Data ONTAP(R), returns an error indicating that it ran out of pipe instances in the listening state. This can happen when the requests from Data ONTAP are received by the DC during a timing window when the limited number of listening pipe instance are already allocated to other requests. Such errors received by Data ONTAP might result in longer CIFS/NFS authentication and/or access times, potentially resulting in CIFS/NFS client timeouts.
+
+
 == secd.dc.out.of.pipe.instances
 *Severity*::
 ALERT

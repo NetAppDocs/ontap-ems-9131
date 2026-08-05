@@ -13,6 +13,10 @@ summary: connectx.cmdinterface events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the command interface of ConnectX HA interconnect hardware is temporarily hung. If the command interface fails to recover, the HA interconnect goes down.
+
+
 == connectx.cmdInterface.hung
 *Severity*::
 NOTICE

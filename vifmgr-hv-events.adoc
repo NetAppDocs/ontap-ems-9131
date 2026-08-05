@@ -13,6 +13,10 @@ summary: vifmgr.hv events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when no Hypervisor host configuration is available. This is required by ONTAP(R) software to monitor the health of the hypervisor uplinks.
+
+
 == vifmgr.hv.nohostconfig
 *Severity*::
 ALERT

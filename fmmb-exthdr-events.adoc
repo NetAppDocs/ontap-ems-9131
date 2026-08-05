@@ -13,6 +13,10 @@ summary: fmmb.exthdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the HA Mailbox extension header is invalid. The extension header is an on-disk structure which describes the opaque client blocks and major reset structures.
+
+
 == fmmb.exthdr.null
 *Severity*::
 ERROR

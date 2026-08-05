@@ -13,6 +13,10 @@ summary: sshd.logingracetime events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user tries to establish a Secure Shell (SSH) connection to a storage system and does not provide the password within the allotted timeout period. Many such connection attempts could potentially disallow other users from logging in to the storage system, causing a Denial of Service (DOS) attack.
+
+
 == sshd.loginGraceTime.expired
 *Severity*::
 ERROR

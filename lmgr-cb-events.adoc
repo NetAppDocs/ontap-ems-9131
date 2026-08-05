@@ -13,6 +13,10 @@ summary: lmgr.cb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a lock manager waiting lock callback object cannot be allocated due to reaching the limit for waiting lock callback objects in the associated pool. It is possible there are too many clients holding locks on files where other clients want locks. Clients will have problems accessing or locking files through NAS protocols while at or above the waiting lock callback object limit.
+
+
 == lmgr.cb.waiting.limit.hit
 *Severity*::
 ERROR

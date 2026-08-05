@@ -13,6 +13,10 @@ summary: mgr.module events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This occurs to inform you of where kernel modules were loaded in memory. This information helps NetApp technical support interpret the data in any mgr.stack.frameaddr events.
+
+
 == mgr.module.address
 *Severity*::
 NOTICE

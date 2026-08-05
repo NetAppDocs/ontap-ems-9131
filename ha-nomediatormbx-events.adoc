@@ -13,6 +13,10 @@ summary: ha.nomediatormbx events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the non-local mailbox disks of a node are not accessible. The system will not be able to perform a takeover and can potentially prevent a takeover by the partner as well.
+
+
 == ha.noMediatorMbx
 *Severity*::
 ERROR

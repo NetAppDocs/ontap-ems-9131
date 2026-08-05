@@ -13,6 +13,10 @@ summary: nvmeof.timeout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVMeoF driver detects a timeout on a request. There might be a decrease in performance while retrying.
+
+
 == nvmeof.timeout
 *Severity*::
 NOTICE

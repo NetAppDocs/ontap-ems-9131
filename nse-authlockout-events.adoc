@@ -13,6 +13,10 @@ summary: nse.authlockout events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a NetApp(R) Storage Encryption (NSE) self-encrypting drive (SED) reports excessive sequential failed authentication attempts with an incorrect Authentication Key (AK) on the indicated SED authority. To prevent brute-force AK attacks, the SED will no longer accept even the correct AK. Access and control of the SED are affected. This condition applies to drives that implement the Trusted Computing Group (TCG) "Enterprise" and "Opal" specifications. Enterprise BandMaster1 authority lockout and Opal User1 authority lockout affect protection controls on user data. User data on the drive is permanently irretrievable for lockouts on these authorities. For other lockouts, some aspect of compliance with Federal Information Processing Standard (FIPS) PUB 140-2 is compromised. Enterprise "Erase Master" and Opal "Owner" authority lockouts disable cryptographic sanitize and destroy ONTAP(R) operations.
+
+
 == nse.authLockOut
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: mgmtgwd.mixed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when not all nodes are running the same version of ONTAP. Not all features of a software version are available to the cluster unless all nodes are at the same version. This message can occur when upgrade or revert is in progress or has not completed successfully.
+
+
 == mgmtgwd.mixed.version
 *Severity*::
 ALERT

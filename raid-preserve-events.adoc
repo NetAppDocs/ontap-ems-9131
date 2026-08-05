@@ -13,6 +13,10 @@ summary: raid.preserve events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+During RAID replay of NVRAM, entries associated with a non-existent (offline or missing) aggregate were discovered. Since the volume is not available to replay those NVRAM entries, it will be saved in a system file on the root volume and will be replayed when the aggregate becomes available. This event is issued if the system is able to successfully save the NVRAM RAID entries associated with a non-existent aggregate.
+
+
 == raid.preserve.nvram
 *Severity*::
 INFORMATIONAL

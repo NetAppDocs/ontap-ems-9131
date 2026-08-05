@@ -13,6 +13,10 @@ summary: auto.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an action is applied to an automatic update request. This step requires input from the customer or a pre-configured default setting.
+
+
 == auto.update.action
 *Severity*::
 NOTICE

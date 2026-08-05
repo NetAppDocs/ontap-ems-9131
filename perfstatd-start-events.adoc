@@ -13,6 +13,10 @@ summary: perfstatd.start events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the perfstat daemon (perfstatd) startup fails. This failure impacts the continuous archiving of performance data that technical support uses to troubleshoot performance issues.
+
+
 == perfstatd.start.unsuccessful
 *Severity*::
 ERROR

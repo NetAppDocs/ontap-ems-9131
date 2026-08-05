@@ -13,6 +13,10 @@ summary: fmmb.blobnotwritten events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a mailbox 'blob' write operation to the on-disk mailbox data structure fails. A 'blob' is a piece of data that has been stored for a non-high availability (HA) Data ONTAP(R) subsystem in the HA mailbox.
+
+
 == fmmb.BlobNotWritten
 *Deprecated*::
 Deprecated as of version 9.2.

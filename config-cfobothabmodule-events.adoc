@@ -13,6 +13,10 @@ summary: config.cfobothabmodule events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf in a node is cabled for multipathing and the configuration does not support it. Multipathing means that the disk shelf is connected to one node through both disk shelf module A and module B. In HA configurations, multipathing is only supported if software disk ownership is being used and the storage shelf supports it.
+
+
 == config.CFObothABmodule
 *Severity*::
 ALERT

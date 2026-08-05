@@ -13,6 +13,10 @@ summary: flexcache.originfull events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a FlexCache(R) origin volume cannot serve data to cache volume because origin volume is full. The cache volume might therefore not be able to serve data to its clients until the origin has free space.
+
+
 == flexcache.originFull
 *Severity*::
 ALERT

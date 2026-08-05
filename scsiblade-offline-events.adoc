@@ -13,6 +13,10 @@ summary: scsiblade.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the node loses connectivity with the majority of the cluster. When this occurs, both FCP and iSCSI traffic are disabled on this node. Remote cluster traffic is impacted. After connectivity is restored, the node automatically recovers and enables FCP and iSCSI services.
+
+
 == scsiblade.offline
 *Severity*::
 ERROR

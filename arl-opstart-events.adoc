@@ -13,6 +13,10 @@ summary: arl.opstart events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the aggregate relocation operation starts. After this message is displayed, aggregates are relocated to the specified destination serially.
+
+
 == arl.OpStart
 *Severity*::
 NOTICE

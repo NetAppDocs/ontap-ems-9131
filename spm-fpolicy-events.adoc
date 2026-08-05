@@ -13,6 +13,10 @@ summary: spm.fpolicy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the fpolicy involuntarily terminates. This can be due to one or more causes and might be related to some recent or previous operations. This subsystem is responsible for sending notification to external fpolicy servers and failure of this subsystem can affect client access.
+
+
 == spm.fpolicy.process.exit
 *Severity*::
 ALERT

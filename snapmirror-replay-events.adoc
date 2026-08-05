@@ -13,6 +13,10 @@ summary: snapmirror.replay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when metadata replay fails in the process of making a Synchronous SnapMirror(R) destination flexible volume writable. This will result in the destination volume coming online with the view of the last snapshot successfully transferred instead of the view of the active filesystem up until the last consistency point..
+
+
 == snapmirror.replay.failed
 *Severity*::
 EMERGENCY

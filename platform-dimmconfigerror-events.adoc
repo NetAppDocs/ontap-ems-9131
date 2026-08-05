@@ -13,6 +13,10 @@ summary: platform.dimmconfigerror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the DIMM configuration of the controller is different from the configuration supported by this model. This often occurs when an incorrect DIMM memory size is used in a DIMM slot.
+
+
 == platform.dimmConfigError
 *Severity*::
 ALERT

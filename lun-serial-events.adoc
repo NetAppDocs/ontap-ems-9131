@@ -13,6 +13,10 @@ summary: lun.serial events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs when the system clock has been set back in time. It prints the current LUN serial number counter.
+
+
 == lun.serial.timeWentBack
 *Severity*::
 INFORMATIONAL

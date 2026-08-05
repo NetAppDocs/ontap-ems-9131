@@ -13,6 +13,10 @@ summary: lmgr.mismatch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the current file object of a lock does not match the file object found through the file handle. This might be caused by a SnapMirror(R) promote operation where the Master Data Set ID (MSID) is remapped.
+
+
 == lmgr.mismatch.file.objects
 *Severity*::
 NOTICE

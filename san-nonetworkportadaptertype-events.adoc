@@ -13,6 +13,10 @@ summary: san.nonetworkportadaptertype events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in MetroCluster(TM) configurations on clustered Data ONTAP(R) systems, when Data ONTAP cannot find a port on the disaster recovery (DR) node that is of the same adapter type (CNA/NIC) as the home port of the primary Vserver iSCSI LIF.
+
+
 == san.NoNetworkPortAdapterType
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: esh.speed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when there is an error in the link speed of the disk shelves that are attached to the node. Major causes of this include: 1) Last disk shelf in the loop has the termination switch set improperly. 2) Communication is lost to some number of disk shelves in the loop due to an incorrect speed setting for DS14mk2 disk shelves, a bad cable connection, or unavailable power.
+
+
 == esh.speed.error
 *Severity*::
 ERROR

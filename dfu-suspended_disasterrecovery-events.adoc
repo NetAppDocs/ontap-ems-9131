@@ -13,6 +13,10 @@ summary: dfu.suspended_disasterrecovery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in a MetroCluster(TM) environment when firmware download to remote disks is suspended during disaster recovery. This event is signaled at most once during disaster recovery, the first time firmware download to a remote disk is suspended.
+
+
 == dfu.suspended_DisasterRecovery
 *Severity*::
 ERROR

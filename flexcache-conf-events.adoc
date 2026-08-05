@@ -13,6 +13,10 @@ summary: flexcache.conf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when FlexCache configuration refresh fails. If this event happens, FlexCache will not be able to reach to its origin which will cause FlexCache to serve only cached data. This message occurs at most once every 30 minutes.
+
+
 == flexcache.conf.refreshFailed
 *Severity*::
 ALERT

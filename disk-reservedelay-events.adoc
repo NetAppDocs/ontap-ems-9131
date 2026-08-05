@@ -13,6 +13,10 @@ summary: disk.reservedelay events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SCSI reservation command has a longer latency than expected during takeover. This delay could cause a system outage in which case the disk should be removed to prevent further problems. .
+
+
 == disk.reserveDelay
 *Severity*::
 NOTICE

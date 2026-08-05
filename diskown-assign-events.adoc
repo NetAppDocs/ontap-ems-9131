@@ -13,6 +13,10 @@ summary: diskown.assign events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the "storage disk assign" command fail to assign a disk to a different owner from the other disks within the carrier. This is because the "storage disk assign" command with the -f option must be used in such cases.
+
+
 == diskown.assign.splitOwner
 *Severity*::
 INFORMATIONAL

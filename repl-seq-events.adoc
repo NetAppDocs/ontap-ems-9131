@@ -13,6 +13,10 @@ summary: repl.seq events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the SnapMirror sequential split is enabled on a SAN operating workload. This is meant to be enabled for NAS workloads only. SAN operating workload would experience a higher latency and is not recommended to be used with sequential splitting mode.
+
+
 == repl.seq.split.enabled.SAN
 *Severity*::
 ALERT

@@ -13,6 +13,10 @@ summary: replication.xfr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a SnapMirror(R)/SnapVault(tm) operation is not completed because a block received from the source system failed checksum verification. This might be caused by corruption in the network stream that went undetected by the TCP checksum.
+
+
 == replication.xfr.checksum.fail
 *Severity*::
 ERROR

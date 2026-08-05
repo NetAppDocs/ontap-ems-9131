@@ -13,6 +13,10 @@ summary: vsdr.fpvolallpolicyonfpaggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when source volume of an SVM disaster recovery (SVMDR) relationship having a volume tiering policy of "all" residing on FabricPool aggregate on the primary cluster is placed on a FabricPool aggregate at the destination cluster. SnapMirror(R) transfer will be slow and might cause recovery point objective(RPO) to be missed.
+
+
 == vsdr.FPVolAllPolicyOnFPAggr
 *Severity*::
 ALERT

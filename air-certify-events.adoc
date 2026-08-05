@@ -13,6 +13,10 @@ summary: air.certify events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a metadata inconsistency is discovered inside a file system feature that is read-only and therefore cannot be immediately corrected. One or more processes in ONTAP(R) software might have been canceled when they encountered the inconsistency.
+
+
 == air.certify.cancel
 *Severity*::
 ALERT

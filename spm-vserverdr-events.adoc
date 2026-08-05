@@ -13,6 +13,10 @@ summary: spm.vserverdr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Vserver DR process involuntarily terminates. This might cause interruptions in the automatic or scheduled configuration backup of the Vserver's data and configuration.
+
+
 == spm.vserverdr.process.exit
 *Severity*::
 ALERT

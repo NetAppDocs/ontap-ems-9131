@@ -13,6 +13,10 @@ summary: nvmem.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVMEM battery lacks the capacity to preserve the NVMEM contents for the required minimum of 72 hours. The system is at the risk of data loss if the power fails. This message repeats every hour while the problem continues and the system shuts down in 24 hours if automatic recharging of the battery does not restore its charge.
+
+
 == nvmem.battery.capacity.low
 *Severity*::
 EMERGENCY

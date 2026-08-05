@@ -13,6 +13,10 @@ summary: crypto.okmrecovery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Onboard Key Manager (OKM) recovery command in the boot menu fails to recover the OKM hierarchy. Without the the OKM hierarchy, volumes encrypted using OKM will not come online, and you will not be able to use OKM to encrypt volumes.
+
+
 == crypto.okmrecovery.failed
 *Severity*::
 ALERT

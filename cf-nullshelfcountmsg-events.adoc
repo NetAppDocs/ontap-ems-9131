@@ -13,6 +13,10 @@ summary: cf.nullshelfcountmsg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs if we are sent a NULL negotiated failover shelf count message. * This is likely due to an InterConnect problem.
+
+
 == cf.nullShelfCountMsg
 *Severity*::
 ERROR

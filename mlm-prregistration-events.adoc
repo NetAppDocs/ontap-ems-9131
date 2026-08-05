@@ -13,6 +13,10 @@ summary: mlm.prregistration events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the registration of a SCSI persistent reservation key fails. A number of conditions can cause this SCSI command to fail and most are transitory in nature. If there is not a subsequent EMS_mlm_PRregistration_succeeded message, it is indicative of a persistent hardware fault.
+
+
 == mlm.PRregistration.failed
 *Severity*::
 ERROR

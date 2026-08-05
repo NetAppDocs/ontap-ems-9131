@@ -13,6 +13,10 @@ summary: wafl.inode events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the in-memory inode cache is under high load and fully utilized. The system will likely experience high cache miss rates and some file system operations might experience delays due to increased disk activity, but that is the extent of the problem.
+
+
 == wafl.inode.cache.highLoad
 *Severity*::
 INFORMATIONAL

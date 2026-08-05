@@ -13,6 +13,10 @@ summary: dump.notify events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the dump incremental backup might be incomplete. When setting ctime to past values is allowed, files copied to volumes through SMB/CIFS might have timestamps that are in the past compared to the time of copy. If an inode number is reused for the files with timestamps in the past that were copied into the volume after the last backup, the files will be missed in the incremental backup.
+
+
 == dump.notify.backward.ctime
 *Severity*::
 ALERT

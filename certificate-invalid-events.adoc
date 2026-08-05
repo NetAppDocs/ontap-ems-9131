@@ -13,6 +13,10 @@ summary: certificate.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an installed certificate record contains multiple X.509 certificates. Such records are not treated consistently by the system, but were unintentionally permitted in prior releases.
+
+
 == certificate.invalid.chain
 *Severity*::
 ERROR

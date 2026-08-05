@@ -13,6 +13,10 @@ summary: dbs.director events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when data address assignments are stable. This means that all data address movement, graceful or ungraceful, is complete and remains stable until another event on the cluster requires subsequent data address movement.
+
+
 == dbs.director.addrs.stable
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: sfo.takeover events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the taking over node cannot complete an attempted optimized negotiated takeover. Any data LIFs that were migrated as part of the failed takeover operation will not be auto-reverted back.
+
+
 == sfo.takeover.aborted
 *Severity*::
 ERROR

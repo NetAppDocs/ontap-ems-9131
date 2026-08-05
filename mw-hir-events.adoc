@@ -13,6 +13,10 @@ summary: mw.hir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when extent reference has reached a pre-determined threshold value. This is a temporary notification till we support OVERFLOW file - where we can support infinite reference.
+
+
 == mw.HiR.maxref.notify
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: scsiblade.init events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the specified Vserver initialization was skipped due to a user-initiated abort. Giveback was allowed to succeed--in a degraded state--to allow further recovery. LUNs in the Vserver might not be accessible or might not be accessible on all paths.
+
+
 == scsiblade.init.abort
 *Severity*::
 ALERT

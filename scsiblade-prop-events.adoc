@@ -13,6 +13,10 @@ summary: scsiblade.prop events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a CTRAN "proposal done" message is not received. The SAN management plane is inoperative for the Vserver until the corrective action is taken.
+
+
 == scsiblade.prop.done.error
 *Severity*::
 EMERGENCY

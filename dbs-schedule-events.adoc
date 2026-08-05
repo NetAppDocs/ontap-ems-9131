@@ -13,6 +13,10 @@ summary: dbs.schedule events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Distributed Block Store (DBS) is running one or more of the scheduled activities but the activity failed, for example running a scheduled create snapshot fails to complete. The fault clears if the scheduled activity runs again and succeeds, if the scheduled activity is deleted, or if the activity is paused and resumed. The DBS is responsible for managing the data that backs the FlexVols(R).
+
+
 == dbs.schedule.action.error
 *Severity*::
 ERROR

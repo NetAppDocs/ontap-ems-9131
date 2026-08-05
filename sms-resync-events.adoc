@@ -13,6 +13,10 @@ summary: sms.resync events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a resynchronize operation between the source volume and destination volume fails. The SnapMirror(R) Sync relationship is in "out-of-sync" status. Data protection is impacted.
+
+
 == sms.resync.attempt.failed
 *Severity*::
 ERROR

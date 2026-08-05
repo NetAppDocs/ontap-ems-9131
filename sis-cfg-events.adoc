@@ -13,6 +13,10 @@ summary: sis.cfg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the configuration file for a Single Instance Storage (SIS) volume is deleted. This leads to the loss of deduplication configuration for the volume and statistics of deduplication operations.
+
+
 == sis.cfg.deleted
 *Severity*::
 ERROR

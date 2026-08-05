@@ -13,6 +13,10 @@ summary: scsiblade.isolated events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the node loses connectivity with the majority of the cluster. When this occurs, both FCP and iSCSI traffic are isolated to local access only. Remote cluster traffic is impacted. After connectivity is restored, the node automatically recovers and allows remote FCP and iSCSI access.
+
+
 == scsiblade.isolated
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: diskown.mccip events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when MetroCluster(tm) quarter-shelf based drive assignment is enabled or disabled. It is enabled when the system is a member of an AFF HA pair in a 4-node MetroCluster IP configuration.
+
+
 == diskown.mccip.assignStatus
 *Severity*::
 NOTICE

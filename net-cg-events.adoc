@@ -13,6 +13,10 @@ summary: net.cg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the current connection group experiences backpressure. The client workload is distributed among connection groups. If a connection group has too much work waiting to be processed, incoming packets will be dropped. If one connection group experiences backpressure, it might indicate an imbalance that could affect the subset of clients using that connection group. If all connection groups are experiencing backpressure, it might indicate that the workload is nearing the capacity of the storage controller.
+
+
 == net.cg.backpressureEntered
 *Severity*::
 NOTICE

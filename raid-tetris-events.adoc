@@ -13,6 +13,10 @@ summary: raid.tetris events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system detects a block number mismatch during a write operation. The expected Virtual Block Number (VBN)/Disk Block Number (DBN) is not the same as the stored VBN/DBN from the checksum entry indicating that the block is read from the wrong location. Data ONTAP(R) makes appropriate recovery actions. Other events describe those actions.
+
+
 == raid.tetris.cksum.bno
 *Severity*::
 NOTICE

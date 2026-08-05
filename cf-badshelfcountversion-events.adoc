@@ -13,6 +13,10 @@ summary: cf.badshelfcountversion events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event occurs if we are sent a negotiated failover shelf count message with a version which we don't support. As a result, disk shelf count negotiated failover will not work. This is likely due to a kernel version mismatch.
+
+
 == cf.badShelfCountVersion
 *Severity*::
 ERROR

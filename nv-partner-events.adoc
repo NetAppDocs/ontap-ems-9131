@@ -13,6 +13,10 @@ summary: nv.partner events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when checking the partner nonvolatile RAM (NVRAM) and the partner NVRAM is disabled. This event most commonly occurs during the takeover or switchover process after the partner has gone down.
+
+
 == nv.partner.disabled
 *Severity*::
 INFORMATIONAL

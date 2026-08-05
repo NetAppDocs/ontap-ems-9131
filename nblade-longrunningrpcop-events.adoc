@@ -13,6 +13,10 @@ summary: nblade.longrunningrpcop events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a running remote procedure call (RPC) operation takes longer than a defined length of time. The message indicates that the RPC operation has not been completed. If the condition persists, any operation to that RPC server is likely to fail.
+
+
 == Nblade.longRunningRpcOp
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: pha.dev events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when ONTAP(R)software fails to get a drives's capacity after an extended wait. As a result, cannot add the drive.
+
+
 == pha.dev.get.capacity.failed
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: netif.phynotread events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system cannot read identification information from the physical layer (PHY) of a network interface. This might be caused by a software bug or hung hardware, and the link might not come up.
+
+
 == netif.phyNotRead
 *Severity*::
 ERROR

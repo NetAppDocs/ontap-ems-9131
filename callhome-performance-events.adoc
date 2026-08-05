@@ -13,6 +13,10 @@ summary: callhome.performance events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when you invoke an AutoSupport for performance archives. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.performance.archive
 *Severity*::
 NOTICE

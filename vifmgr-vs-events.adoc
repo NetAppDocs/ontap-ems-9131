@@ -13,6 +13,10 @@ summary: vifmgr.vs events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Logical Interface Manager (VIFMgr) is unable to retrieve the list of Vservers from the management gateway Vserver cache in the allotted time. VIFMgr attempts to recover from this issue. If unsuccessful, clients might not be able to access data through this node.
+
+
 == vifmgr.vs.cache.updateFailed
 *Severity*::
 ALERT

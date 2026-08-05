@@ -13,6 +13,10 @@ summary: sfu.suspendses events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk shelf firmware update is requested in a high-availability (HA) environment. One partner node updates the firmware on the disk shelf module while the HA partner node temporarily disables enclosure services while the firmware update is in process.
+
+
 == sfu.suspendSES
 *Severity*::
 INFORMATIONAL

@@ -13,6 +13,10 @@ summary: sectrace.warning events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a security tracing filter is enabled. It can cause a significant performance degradation and should be disabled as soon as it is no longer needed.
+
+
 == sectrace.warning.aboutperf
 *Severity*::
 ALERT

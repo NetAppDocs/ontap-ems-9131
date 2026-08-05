@@ -13,6 +13,10 @@ summary: ktls.cnxnhandshakelimit events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the concurrent TLS connection handshake limit is reached. Any new TLS connection request will fail and an error status will be returned.
+
+
 == ktls.cnxnHandshakeLimit
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: moveagent.dst events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the move agent detects that the attributes of the destination volume are partially updated during the commit destination phase. In such scenarios, the volume move operation may not be able to complete successfully and the client access will be blocked during this whole period.
+
+
 == moveagent.dst.partial.commit
 *Severity*::
 ALERT

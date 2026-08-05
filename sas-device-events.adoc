@@ -13,6 +13,10 @@ summary: sas.device events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk's vmdisk header is bad. The disk is unusable by the system.
+
+
 == sas.device.bad.vmdisk.header
 *Severity*::
 ERROR

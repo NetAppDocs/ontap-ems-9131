@@ -13,6 +13,10 @@ summary: vldb.mccaggregate events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during MetroCluster(tm) configuration setup, when the aggregate at the destination site is renamed to handle a name collision. This can happen when an aggregate is renamed at the source site, which causes its mirror to be renamed at the destination site. It can also happen when an aggregate is created at the source site, which causes its mirror to be created at the destination site. In both cases, the issue is that an aggregate of the same name already exists on the destination site, resulting in a name collision. The aggregate at the destination is renamed to resolve the name collision.
+
+
 == vldb.mccaggregate.rename
 *Severity*::
 INFORMATIONAL

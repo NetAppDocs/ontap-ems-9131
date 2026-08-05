@@ -13,6 +13,10 @@ summary: wafl.metafile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a metafile to be created is not documented, has information about it missing, or has not been identified and associated with an entry from the wiki page: MetafileRegistration. METAFILE_UNKNOWN is used as a placeholder in these cases.
+
+
 == wafl.metafile.reg.unknown
 *Severity*::
 NOTICE

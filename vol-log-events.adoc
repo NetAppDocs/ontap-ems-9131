@@ -13,6 +13,10 @@ summary: vol.log events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the volume or aggregate allocates more space than it can honor by way of reservations, or the aggregate has allocated more space than it can honor by way of guarantees. If the reserved or guaranteed space is consumed, there is insufficient physical space, which can cause the volume or aggregate to be taken offline.
+
+
 == vol.log.overalloc
 *Severity*::
 ALERT

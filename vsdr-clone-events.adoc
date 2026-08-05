@@ -13,6 +13,10 @@ summary: vsdr.clone events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a clone create job fails prematurely. As result, there is a partially created clone in the cluster.
+
+
 == vsdr.clone.cleanup.fail
 *Severity*::
 ERROR

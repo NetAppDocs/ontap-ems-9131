@@ -13,6 +13,10 @@ summary: http.cfg events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the maximum number of Cross-Site Request Forgery (CSRF) tokens has been reached. Web applications served from ONTAP(R), such as ONTAP System Manager, use CSRF tokens to prevent unauthorized modifications to the cluster. When the token limit has been reached, new connections to these applications will not be able to make changes to the cluster configuration.
+
+
 == http.cfg.csrf.max.tokens
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: flexcache.cachedisconnected events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a FlexCache(R) origin volume cannot communicate with its cache volume. The cache volume might therefore present stale data to its clients until the connection is reestablished.
+
+
 == flexcache.cacheDisconnected
 *Severity*::
 EMERGENCY

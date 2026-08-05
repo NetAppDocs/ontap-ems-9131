@@ -13,6 +13,10 @@ summary: asyncdelete.cancel events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when cancellation of async delete jobs is started on a node due to Vserver migrate operation. The administrator will need to restart the jobs after the migration is complete or aborted.
+
+
 == asyncDelete.cancel.start
 *Severity*::
 NOTICE

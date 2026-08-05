@@ -13,6 +13,10 @@ summary: snaplock.invalid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an invalid autocommit period value is found on a SnapLock(R) volume. ONTAP(R) 9.4 software and later releases have a maximum autocommit period value of 10 years. If this maximum is exceeded, autocommit is disabled on the volume.
+
+
 == snaplock.invalid.autocommit
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: certificate.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an installed certificate record exists in a node Vserver. Such records are not treated consistently by the system, but were unintentionally permitted in prior releases.
+
+
 == certificate.node.vserver
 *Severity*::
 ERROR

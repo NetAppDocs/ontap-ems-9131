@@ -13,6 +13,10 @@ summary: revertto.system events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system is rebooting to complete the revert process. During reboot, the RAID subsystem will be reverted. After the RAID subsystem reverts and the system reboots, the revert process is complete.
+
+
 == revertTo.system.reboot
 *Severity*::
 NOTICE

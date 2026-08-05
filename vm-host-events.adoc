@@ -13,6 +13,10 @@ summary: vm.host events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a VM is paused by the hypervisor. The backing datastore might have been filled or connectivity to the datastore might have been lost. Corrective actions should be performed as soon as possible.
+
+
 == vm.host.error
 *Severity*::
 EMERGENCY

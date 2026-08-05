@@ -13,6 +13,10 @@ summary: vifmgr.bd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an MTU is entered on a Broadcast Domain that its member ports cannot support. The ports that failed will continue using their present values.
+
+
 == vifmgr.bd.badmtu
 *Severity*::
 ERROR

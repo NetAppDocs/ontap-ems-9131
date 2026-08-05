@@ -13,6 +13,10 @@ summary: nodewatchdog.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when Data ONTAP(R) experiences a prolonged outage of internal services critical to continued data service. The node experiencing this failure might operate in a degraded mode until the condition is addressed. Data ONTAP will attempt to recover by restarting the affected process.
+
+
 == nodewatchdog.node.failure
 *Severity*::
 EMERGENCY

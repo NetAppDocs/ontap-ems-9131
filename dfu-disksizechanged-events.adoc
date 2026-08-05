@@ -13,6 +13,10 @@ summary: dfu.disksizechanged events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a size change is detected after a firmware update. This can be either an increase or decrease in physical size of the disk.
+
+
 == dfu.diskSizeChanged
 *Severity*::
 NOTICE

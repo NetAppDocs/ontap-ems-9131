@@ -13,6 +13,10 @@ summary: extcache.rw events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an external cache cannot obtain sufficient system resources. This causes the external cache component to be unable to rewarm after a reboot, which might cause a temporary performance impact.
+
+
 == extCache.rw.alloc
 *Severity*::
 NOTICE

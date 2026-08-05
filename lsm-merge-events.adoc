@@ -13,6 +13,10 @@ summary: lsm.merge events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a block store encounters an error while merging an append log. Normally these merges should recover, but it is important to keep track of exactly when and where the problem happened to help with performance tuning and recovery options.
+
+
 == lsm.merge.alog.problem
 *Severity*::
 NOTICE

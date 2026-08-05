@@ -13,6 +13,10 @@ summary: wafl.mirror events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the system rejects client access to a primordial volume. A primordial volume is a volume that has been configured as the destination of a SnapMirror(R) relationship but has not yet been initialized through that relationship.
+
+
 == wafl.mirror.access.denied
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: volaggr.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+Some aggregates are forced offline. volume creation could cause duplicate FSIDs.
+
+
 == volaggr.offline
 *Severity*::
 ALERT

@@ -13,6 +13,10 @@ summary: vserver.name events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when use of the "vserver rename" command creates a Vserver name conflict in the local cluster, and the local cluster resolves the name conflict by incorporating the Vserver Unique Identifier (UID) into the name. This creates a new and unique Vserver name, but that new name is not the name specified in the original rename command.
+
+
 == vserver.name.conflict.local
 *Severity*::
 NOTICE

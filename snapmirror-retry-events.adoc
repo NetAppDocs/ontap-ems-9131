@@ -13,6 +13,10 @@ summary: snapmirror.retry events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when metadata replay fails in the process of making a Synchronous SnapMirror(R) destination flexible volume writable. This failure occurs because sufficient space was not available in the containing aggregate.
+
+
 == snapmirror.retry.replay
 *Severity*::
 ERROR

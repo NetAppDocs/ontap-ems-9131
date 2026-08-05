@@ -13,6 +13,10 @@ summary: san.nosupportedsamenamedfcport events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs in MetroCluster(tm) configurations on clustered Data ONTAP(R) systems, when Data ONTAP cannot find the same named port that support the FCP/FC-NVMe data-protocol to place an FC logical interface (LIF) in the destination cluster. A same named port is an FC port in the destination cluster that has the same name as that of the FC port in the source cluster hosting the FC logical interface (LIF).
+
+
 == san.NoSupportedSameNamedFCport
 *Severity*::
 ERROR

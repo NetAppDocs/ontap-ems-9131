@@ -13,6 +13,10 @@ summary: sis.policy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs during system software upgrade to Data ONTAP(R) 8.1 or later, while creating predefined policies. There is a user policy with the same name as a predefined policy prior to upgrade, and it cannot be renamed.Therefore, the predefined policy cannot be created.
+
+
 == sis.policy.predef.create.upgradeError
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: configbr.snapshotdelfailed events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Snapshot(tm) copy on the root volume cannot be deleted. The Snapshot copy was created during a configuration backup.
+
+
 == configbr.snapshotDelFailed
 *Severity*::
 ERROR

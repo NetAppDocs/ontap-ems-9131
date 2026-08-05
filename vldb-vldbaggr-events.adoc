@@ -13,6 +13,10 @@ summary: vldb.vldbaggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an aggregate is identified that does not exist in the Volume Location Database. This could happen if a disk shelf that constitutes an aggregate is plugged in or when an aggregate is created in Maintenance mode.
+
+
 == vldb.vldbAggr.missing
 *Severity*::
 ERROR

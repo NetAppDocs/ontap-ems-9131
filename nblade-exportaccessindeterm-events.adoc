@@ -13,6 +13,10 @@ summary: nblade.exportaccessindeterm events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when client access cannot be evaluated because of an error while matching the client against export rules. Client access might be disrupted due to unresponsive or misconfigured external servers, problems with external server configuration on Data ONTAP(R), or internal errors while processing the rules.
+
+
 == Nblade.exportAccessIndeterm
 *Severity*::
 ERROR

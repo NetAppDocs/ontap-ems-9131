@@ -13,6 +13,10 @@ summary: callhome.ctran events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Kernel Cluster Services (KCS) / Cluster Transaction Manager (CTRAN) detects that one or more newly selected Group Coordinators (GCs) are taking too long to successfully complete the GC Ready on Reselect procedure. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.ctran.gcror.timeout
 *Severity*::
 ALERT

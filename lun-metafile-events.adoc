@@ -13,6 +13,10 @@ summary: lun.metafile events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+lun metafile directory creation failed
+
+
 == lun.metafile.dirCreateFailed
 *Severity*::
 ERROR

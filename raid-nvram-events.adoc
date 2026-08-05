@@ -13,6 +13,10 @@ summary: raid.nvram events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when RAID NVRAM contains some bad entries. Data ONTAP(R) takes appropriate recovery actions, as described in additional logged events.
+
+
 == raid.nvram.bad.entry
 *Severity*::
 NOTICE

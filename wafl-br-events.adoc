@@ -13,6 +13,10 @@ summary: wafl.br events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued if block reallocation has not been performed on an aggregate but a reallocated block was found that subsequently needs to be redirected. Block reallocation operates in two phases: first the blocks on an aggregate are moved (reallocated), later, when the block is read, the old pointers to the block are updated (redirected). This event is issued when the second phase is required without the first phase occurring. Since this may indicate on-disk data corruption, the aggregate has been taken offline.
+
+
 == wafl.br.redir.invalid
 *Severity*::
 ALERT

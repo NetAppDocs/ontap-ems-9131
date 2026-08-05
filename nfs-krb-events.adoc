@@ -13,6 +13,10 @@ summary: nfs.krb events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Kerberos-enabled LIF in a Vserver shares NFS Kerberos credentials with a LIF in another Vserver. NFS Kerberos is automatically disabled by Data ONTAP(R) on LIFs that share Kerberos credentials across Vservers, because of the security violation this causes. Disabling Kerberos on a LIF can cause service disruption to NFS clients that use these LIFs, mounted using the '-sec=krb5' option.
+
+
 == nfs.krb.lif.disabled
 *Severity*::
 ALERT

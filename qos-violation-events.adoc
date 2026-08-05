@@ -13,6 +13,10 @@ summary: qos.violation events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs every hour to provide a snapshot of violation detection status for the Quality of Service (QoS) policy groups. The snapshot shows the states of those policy groups that either cannot meet their service-level objectives (SLOs), or are impacted by (deactivation) actions taken by QoS to remedy the situations. Possible violation states include LOW_OFFERED, which means the offered load for a policy group is too low, or INSUFFICIENT_RESOURCES, which means the system can not support the specified targets in the SLO. The deactivation states include ACTIVATED, which means this policy group is not impacted by deactivation, or DEACTIVATED, which means this policy group is deactivated to support other violated policy group.
+
+
 == qos.violation.report
 *Deprecated*::
 Deprecated as of version 9.4.0 since the QoS violation detection functionality has been deprecated.

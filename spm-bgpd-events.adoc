@@ -13,6 +13,10 @@ summary: spm.bgpd events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Border Gateway Protocol daemon (bgpd) involuntarily terminates. This daemon is responsible for communicating route information between a storage system and gateway for the virtual IP (VIP) feature. This failure will be automatically addressed by spmctl restarting bgpd. However, if bgpd fails to restart for any reason, the VIP feature will not function correctly.
+
+
 == spm.bgpd.process.exit
 *Severity*::
 NOTICE

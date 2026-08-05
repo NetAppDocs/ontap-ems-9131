@@ -13,6 +13,10 @@ summary: callhome.shutdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk drive fails but there are no suitable spares available for reconstruction. To protect your data, the system enters degraded mode. The system halts automatically to prevent a double disk drive failure, and possible loss of data, if it runs in degraded mode for the time interval given by the following command: "storage raid-options show -name raid.timeout -node local" The default timeout is usually 24 hours. If a spare drive becomes available while the system is running in degraded mode, the system immediately begins rebuilding the failed drive. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.shutdown.pending
 *Severity*::
 ALERT

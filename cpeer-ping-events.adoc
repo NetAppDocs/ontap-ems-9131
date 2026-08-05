@@ -13,6 +13,10 @@ summary: cpeer.ping events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when an attempt is made to check the cluster peering relationship and no intercluster LIFs of the same address family and the correct IPspace are found on this node. Stable addresses are typically provided by the administrator during cluster peer creation and can be modified by modifying the peer relationship. The IPspace for a cluster peer relationship may be supplied when creating or modifying the relationship.
+
+
 == cpeer.ping.family.mismatch
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: extcache.offline events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the external cache is automatically taken offline. This can happen after an I/O error on the external cache and may result in degraded performance until the problem is corrected.
+
+
 == extCache.offline
 *Severity*::
 ERROR

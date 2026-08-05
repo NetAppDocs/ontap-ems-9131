@@ -13,6 +13,10 @@ summary: nvram.battery events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the NVRAM battery capacity is critically low. To prevent data loss, the system will shut down.
+
+
 == nvram.battery.capacity.low.critical
 *Severity*::
 EMERGENCY

@@ -13,6 +13,10 @@ summary: qos.viodet events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the Quality of Service (QoS) subsystem has already throttled requests severely to help workloads meet their min-throughput and their service-level objectives (SLOs) and will not throttle any further. Possible reasons for severe throttling could be that there are bully workloads or insufficient resources, which means the system cannot support the specified targets in the SLOs.
+
+
 == qos.VioDet.maxThrottle
 *Severity*::
 NOTICE

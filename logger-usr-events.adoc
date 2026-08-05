@@ -13,6 +13,10 @@ summary: logger.usr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This event is issued when the user runs the 'logger' command. The parameter indicates the message that is sought to be notified and is derived from the string passed in to the logger command.
+
+
 == logger.usr
 *Severity*::
 NOTICE

@@ -13,6 +13,10 @@ summary: master.try events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the associated node can not connect to current cluster master and tries to demote it by making associated global database change. The database change might fail if multiple cluster nodes try to do the same thing, and one of them has updated global database successfully.
+
+
 == master.try.demote.cm
 *Severity*::
 NOTICE

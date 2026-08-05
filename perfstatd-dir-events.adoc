@@ -13,6 +13,10 @@ summary: perfstatd.dir events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the perfstat daemon (perfstatd) startup fails due to improper permissions for the '/mroot/etc/log' directory. This failure impacts the continuous archiving of performance data that technical support uses to troubleshoot performance issues.
+
+
 == perfstatd.dir.permission
 *Severity*::
 ERROR

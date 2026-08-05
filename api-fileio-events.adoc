@@ -13,6 +13,10 @@ summary: api.fileio events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs after a file I/O error that typically causes a Data ONTAP(R) API to fail. While processing Data ONTAP API requests, the system might write intermediate results to files. For example, a long running command returning quantities of data might send a batch of data and save remaining data in a file for subsequent delivery. An I/O error occurred during one of these operations.
+
+
 == api.fileio
 *Severity*::
 NOTICE

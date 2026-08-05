@@ -13,6 +13,10 @@ summary: mgmt.fpolicy events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver administrator disables an FPolicy(R) policy. No subsequent client requests will be processed and no notifications will be sent to FPolicy servers attached with this policy.
+
+
 == mgmt.fpolicy.policy.disabled
 *Severity*::
 INFORMATIONAL

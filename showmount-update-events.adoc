@@ -13,6 +13,10 @@ summary: showmount.update events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the showmount job fails to update the "exports.data" file. This file provides a list of exported volumes and qtrees on the NFS server to any clients running the "showmount -e" command.
+
+
 == showmount.update.failed
 *Severity*::
 ERROR

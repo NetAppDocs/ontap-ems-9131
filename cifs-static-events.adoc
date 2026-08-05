@@ -13,6 +13,10 @@ summary: cifs.static events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a user creates a static home directory without a substitution value (%u or %w) to uniquely identify a home directory share. If multiple users from the same client access their home directories at the same time, unprotected access to each other's files can occur. This might cause unexpected \"access denied\" errors on those files, and data corruption within those files. Note: multiple users from a single client is most likely in a Citrix or Windows Terminal Services environment.
+
+
 == cifs.static.homedir.create
 *Severity*::
 ERROR

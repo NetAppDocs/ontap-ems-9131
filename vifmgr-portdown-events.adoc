@@ -13,6 +13,10 @@ summary: vifmgr.portdown events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a link down event was received on a network port. Data access through this physical port is down.
+
+
 == vifmgr.portdown
 *Severity*::
 NOTICE

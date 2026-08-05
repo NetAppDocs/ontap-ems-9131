@@ -13,6 +13,10 @@ summary: monitor.shelf events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the monitor detects that a disk shelf access error has occurred. The message is also an hourly reminder that the error has not been corrected. Enclosure Services is unable to monitor or control one or more disk shelves on a particular Fibre Channel loop or Serial SCSI Attach (SAS) domain because it cannot communicate with the enclosure services processes in those shelves.
+
+
 == monitor.shelf.accessError
 *Severity*::
 ALERT

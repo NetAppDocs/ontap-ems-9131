@@ -13,6 +13,10 @@ summary: callhome.ses events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when the storage adapter detects a disk on the Fibre Channel loop or the SCSI bus, but enclosure services in the disk shelf does not report a disk with that address. This error indicates that the disk took an address other than what the disk shelf should have provided, or that enclosure services in the disk shelf cannot be contacted for address information. (Note: If the message "ses.drive.possShelfAddr" subsequently appears, follow the corrective actions in that message.) In this condition, the SCSI Enclosure Services (SES) process in the system might be unable to perform certain operations on the disk, such as setting failure LEDs or detecting disk swaps. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+
+
 == callhome.ses.drive.missing
 *Severity*::
 ERROR

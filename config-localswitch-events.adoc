@@ -13,6 +13,10 @@ summary: config.localswitch events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a disk is found attached via both local connection and a switch. This is permitted in debug. The system will be halted in non-debug.
+
+
 == config.localswitch
 *Severity*::
 EMERGENCY

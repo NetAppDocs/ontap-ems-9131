@@ -13,6 +13,10 @@ summary: cpeer.addr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a stable address for the peer cluster cannot be resolved because of a bad name-server. This will make the peer cluster unreachable and cross-cluster operations will fail. Stable addresses are normally provided by the administrator during cluster peer creation.
+
+
 == cpeer.addr.bad.dns
 *Severity*::
 ERROR

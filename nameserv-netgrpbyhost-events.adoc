@@ -13,6 +13,10 @@ summary: nameserv.netgrpbyhost events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when netgroup is configured but the netgroup byhost database is not generated during an upgrade operation. Absence of the netgroup byhost database might impact performance or access during subsequent netgroup-related data access attempts.
+
+
 == nameserv.netgrpbyhost.failed
 *Severity*::
 ERROR

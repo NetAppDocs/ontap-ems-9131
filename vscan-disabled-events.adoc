@@ -13,6 +13,10 @@ summary: vscan.disabled events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+This message occurs when a Vserver or cluster administrator disables Vscan on a Vserver. No subsequent client requests will trigger virus scanning.
+
+
 == vscan.disabled
 *Severity*::
 INFORMATIONAL
