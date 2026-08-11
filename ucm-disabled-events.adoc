@@ -14,7 +14,7 @@ summary: ucm.disabled events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Unified Target Adapter reads an invalid mode from flash memory. The valid supported modes are FC (0x1) or CNA (0x2). The adapter's flash memory has failed or has been corrupted. The adapter will be disabled.
+ucm.disabled events are presented when the Unified Target Adapter reads an invalid mode from flash memory which may require contacting NetApp support.
 
 
 == ucm.disabled.slot

@@ -14,7 +14,7 @@ summary: callhome.mlm events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when all paths for an array LUN are connected to the same controller on the array. This configuration results in a single point of failure at the array. If an active-passive array is connected at the back end, then all the partner controller's paths go to the alternate controller, which results in a tug of war on mailbox I/O or other events that talk to the partner's array LUNs. If the system is running in Cluster-Mode, use the 'storage errors show' command to detect this error. If your system is configured to do so, it generates and transmits an AutoSupport(tm) (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.mlm events are presented when all paths for an array LUN are connected to the same controller on the array which is typically fixed by updating configuration.
 
 
 == callhome.mlm.array.portOneController

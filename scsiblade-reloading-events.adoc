@@ -14,7 +14,7 @@ summary: scsiblade.reloading events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the local node is recovering from a connectivity loss by purging and reloading the SAN configuration cache. When this occurs, both FCP and iSCSI traffic are temporarily disabled until the reload is complete.
+scsiblade.reloading events are presented when the local node is recovering from a connectivity loss by purging and reloading the SAN configuration cache which typically does not require corrective action.
 
 
 == scsiblade.reloading

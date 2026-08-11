@@ -14,7 +14,7 @@ summary: nblade.cifsmaxwatchespertreenotice events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the total number of directory watch (Change Notify) requests nears the configured limit. Upon reaching this limit, any further directory watch requests are denied. This typically indicates abnormal client behavior.
+nblade.cifsmaxwatchespertreenotice events are presented when the total number of directory watch (Change Notify) requests nears the configured limit which is typically fixed by verifying system state and updating configuration.
 
 
 == Nblade.cifsMaxWatchesPerTreeNotice

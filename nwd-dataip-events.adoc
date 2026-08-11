@@ -14,7 +14,7 @@ summary: nwd.dataip events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a data IP address is being removed from a node. Data access through this IP address is now unavailable.
+nwd.dataip events are presented when a data IP address is being removed from a node. Data access through this IP address is now unavailable.
 
 
 == nwd.dataip.removed

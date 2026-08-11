@@ -14,7 +14,7 @@ summary: dbs.generic events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) cluster fault is reported as a generic fault. The DBS is responsible for managing the data that backs the FlexVols(R). Multiple faults are mapped to this one event.
+dbs.generic events are presented when a Distributed Block Store (DBS) cluster fault is reported as a generic fault. The DBS is responsible for managing the data that backs the FlexVols(R). Multiple faults are mapped to this one event.
 
 
 == dbs.generic.cluster.fault

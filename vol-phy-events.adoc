@@ -14,7 +14,7 @@ summary: vol.phy events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the volume is running dangerously low on free blocks to write to. Free blocks are estimated based on the space saved by the storage efficiency features as well as with physically used blocks.
+vol.phy events are presented when the volume is running dangerously low on free blocks to write to which is typically fixed by updating configuration.
 
 
 == vol.phy.overalloc.inc.sav

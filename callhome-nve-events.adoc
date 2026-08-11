@@ -14,7 +14,7 @@ summary: callhome.nve events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the digest of an NetApp Volume Encryption (NVE) or NetApp Aggregate Encryption (NAE) key being restored does not match the expected key digest. Because the key being restored is not the same key expected by the system, the volume associated with the NVE or NAE key will not be able to be onlined, resulting in data loss. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.nve events are presented when the digest of an NetApp Volume Encryption (NVE) or NetApp Aggregate Encryption (NAE) key being restored does not match the expected key digest which may require contacting NetApp support.
 
 
 == callhome.nve.digest.mismatch

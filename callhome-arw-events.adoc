@@ -14,7 +14,7 @@ summary: callhome.arw events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when ransomware activity is detected. To protect the data, a Snapshot copy has been created, which can be used to restore the original data. If your system is configured to do so, it generates and transmits an AutoSupport (or "call home") message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.arw events are presented when ransomware activity is detected which may require contacting NetApp support.
 
 
 == callhome.arw.activity.seen

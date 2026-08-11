@@ -14,7 +14,7 @@ summary: callhome.pool events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an aggregate does not comply with the current Capacity Pool entitlement, as determined by the Licensing Manager. In an HA configuration, noncompliant aggregates are prevented from being sent home during an HA takeover/giveback situation. In a non-HA configuration, these aggregates cannot be brought online if they are already offline. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.pool events are presented when an aggregate does not comply with the current Capacity Pool entitlement, as determined by the Licensing Manager which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.pool.aggr.noncomp

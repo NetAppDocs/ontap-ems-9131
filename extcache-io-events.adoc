@@ -14,7 +14,7 @@ summary: extcache.io events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the external cache detects a block checksum verification error while performing a read operation. Checksum errors are infrequent. Some combinations of external cache hardware and software handle these errors automatically without the need for adminstrator action. If further action is required, other messages will be generated. The operation will be retried from persistent storage (RAID).
+extcache.io events are presented when the external cache detects a block checksum verification error while performing a read operation which typically does not require corrective action.
 
 
 == extCache.io.BlockChecksumError

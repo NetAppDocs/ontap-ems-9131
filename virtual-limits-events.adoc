@@ -14,7 +14,7 @@ summary: virtual.limits events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the process virtual memory limit calculations are disabled on a given node. The virtual memory calculations are explicitly disabled by setting the boot argument "bootarg.engage_vss_limit=false".
+virtual.limits events are presented when the process virtual memory limit calculations are disabled on a given node which typically does not require corrective action.
 
 
 == virtual.limits.disabled

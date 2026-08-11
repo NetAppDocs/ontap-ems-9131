@@ -14,7 +14,7 @@ summary: diff.svcs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system cannot automatically apply the Differentiated Services (diff-svcs) setting to the High Availability (HA) partner. In the event there is a setting mismatch between HA pairs the node with the incorrect setting may produce an incorrect At-Risk-System (ARS) report.
+diff.svcs events are presented when the system cannot automatically apply the Differentiated Services (diff-svcs) setting to the High Availability (HA) partner which is typically fixed by updating configuration.
 
 
 == diff.svcs.setting.topartner

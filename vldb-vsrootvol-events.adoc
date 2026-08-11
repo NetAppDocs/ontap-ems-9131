@@ -14,7 +14,7 @@ summary: vldb.vsrootvol events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Vserver root volume is force deleted while non-root volumes for the Vserver still exist in the cluster. Under normal circumstances, the Vserver root volume cannot be deleted until all the other volumes for the Vserver are deleted. Although deleting the Vserver root volume does not change the operational state for the Vserver, volume operations that refer to the Vserver root volume for information will fail if the corrective action is not taken.
+vldb.vsrootvol events are presented when the Vserver root volume is force deleted while non-root volumes for the Vserver still exist in the cluster which is typically fixed by following the documented corrective steps.
 
 
 == vldb.vsRootVol.del

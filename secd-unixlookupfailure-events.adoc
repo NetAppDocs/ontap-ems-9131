@@ -14,7 +14,7 @@ summary: secd.unixlookupfailure events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an UNIXi(R) user or group lookup fails. This failure is likely to impact many or all users, and might indicate a misconfiguration or environmental problem.
+secd.unixlookupfailure events are presented when an UNIXi(R) user or group lookup fails which is typically fixed by verifying system state and updating configuration.
 
 
 == secd.unixLookupFailure

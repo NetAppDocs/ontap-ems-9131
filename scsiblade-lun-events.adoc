@@ -14,7 +14,7 @@ summary: scsiblade.lun events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects a change in identifiers (serial number, UUID, device ID) of a LUN. As a result, SAN hosts might see the previous identifiers of the LUN. Other LUNs on specified volume are also affected. This can occur due to incomplete processing of a 'snapmirror break' operation for the volume containing this LUN. It can also occur due to the command 'lun rescan' having been issued without following up with bringing the volume offline and then bringing it online.
+scsiblade.lun events are presented when the system detects a LUN with a duplicate serial number which typically does not require corrective action.
 
 
 == scsiblade.lun.ids.change

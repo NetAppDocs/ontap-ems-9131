@@ -14,7 +14,7 @@ summary: callhome.micro events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a "micro-core" file is available. A "micro-core" file is a very small and simple binary image representing some state of ONTAP(R) and can be collected and reported to support. Transmission of a normal core file which can be several gigabytes or larger can take a significant time so isn't done. The subject line provides the filename of the micro- core file which is included as part of a special AutoSupport normally only sent to support. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.micro events are presented when a "micro-core" file is available which may require contacting NetApp support.
 
 
 == callhome.micro.core

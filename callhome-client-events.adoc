@@ -14,7 +14,7 @@ summary: callhome.client events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a remote client accesses the node using Manage ONTAP(R) and triggers an event using the ems-autosupport-log API call with "auto-support" field set to "true". If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.client events are presented when a remote client accesses the node using Manage ONTAP(R) and triggers an event using the ems-autosupport-log API call with "auto-support" field set to "true" which may require contacting NetApp support.
 
 
 == callhome.client.app.alert

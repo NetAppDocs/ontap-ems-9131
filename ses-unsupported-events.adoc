@@ -14,7 +14,7 @@ summary: ses.unsupported events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a disk shelf has one unsupported power supply unit installed in it. The unsupported power fits correctly in the shelf, but its functional characteristics are incompatible with the supported power supply.
+ses.unsupported events are presented when a disk shelf has one unsupported power supply unit installed in it which is typically fixed by verifying system state and connectivity.
 
 
 == ses.unsupported.shelf.psu

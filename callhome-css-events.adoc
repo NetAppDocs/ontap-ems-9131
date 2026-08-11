@@ -14,7 +14,7 @@ summary: callhome.css events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an inconsistency is discovered in a metadata record of the Cloud Storage Service (CSS). The inconsistency is automatically repaired immediately upon detection. But it can leave behind lost objects that are no longer pointed to by the namespace. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.css events are presented when an inconsistency is discovered in a metadata record of the Cloud Storage Service (CSS) which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.css.toc.repair

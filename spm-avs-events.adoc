@@ -14,7 +14,7 @@ summary: spm.avs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the antivirus service stops running due to repeated failures. This can be the result of a bad or corrupted update in the scan engine library or virus definition files, or due to an internal failure. The failure of this subsystem can affect client access if mandatory scanning is enabled. It could also result in files not being scanned.
+spm.avs events are presented when the antivirus service stops running due to repeated failures which may require contacting NetApp support.
 
 
 == spm.avs.process.exit

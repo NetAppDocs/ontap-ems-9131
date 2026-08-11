@@ -14,7 +14,7 @@ summary: lmgr.session events
 :imagesdir: ./media/
 
 [.lead]
-This event occurs when a SpinNP session has failed, which causes session-scoped (e.g. CIFS) locks on the D-blade to be dropped. Only affects locks acquired using the failed session. This will cause clients to see a service disruption until they re-connect to the server.
+lmgr.session events are presented when a SpinNP session has failed, which causes session-scoped (e.g which is typically fixed by following the documented corrective steps.
 
 
 == lmgr.session.failed

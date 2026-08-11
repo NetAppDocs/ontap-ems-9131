@@ -14,7 +14,7 @@ summary: nblade.callbacktimedout events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Nblade is unable to successfully complete a PORTMAP/SM call to the client within 1 seconds. The PORTMAP/SM calls are done as part of the per-aggregate lock reclaim process after a Dblade reboot. If a large number of such calls fail for a particular aggregate, then it delays the completion of the lock reclaim process for that aggregate. That delay prevents the aggregate from granting new locks to NFS clients.
+nblade.callbacktimedout events are presented when the Nblade is cannot successfully complete a PORTMAP/SM call to the client within 1 seconds which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.CallbackTimedOut

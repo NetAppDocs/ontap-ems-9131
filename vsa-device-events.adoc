@@ -14,7 +14,7 @@ summary: vsa.device events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects that the kernel environment variables (kenvs) that are used to configure the core dump and NVRAM devices are missing or inconsistent. If the system is rebooted with a bad configuration, this may result in a failure to boot or incorrect operation of NVRAM or core dump.
+vsa.device events are presented when the system detects that the kernel environment variables (kenvs) that are used to configure the core dump and NVRAM devices are missing or inconsistent which may require a reboot.
 
 
 == vsa.device.bad.config

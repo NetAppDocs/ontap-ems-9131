@@ -14,7 +14,7 @@ summary: nblade.nfs4trunkmaxlimit events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a session trunking group created by the NFSv41 client exceeds the maximum number of supported trunk connections. NFS traffic does not respond on the new trunk connection over the maximum limit.
+nblade.nfs4trunkmaxlimit events are presented when a session trunking group created by the NFSv41 client exceeds the maximum number of supported trunk connections which is typically fixed by updating configuration.
 
 
 == Nblade.nfs4TrunkMaxLimit

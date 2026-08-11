@@ -14,7 +14,7 @@ summary: snaplock.vcc events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects mismatch in the SnapLock(R) volume compliance clock association with the system compliance clock. This can happen when the volume compliance clock's node ID is different from system's node ID or when volume compliance clock's scc ID is different from system compliance clock's ID or when both differ from each other.
+snaplock.vcc events are presented when the system detects mismatch in the SnapLock(R) volume compliance clock association with the system compliance clock which typically does not require corrective action.
 
 
 == snaplock.vcc.assoc.mismatch

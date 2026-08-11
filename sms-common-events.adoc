@@ -14,7 +14,7 @@ summary: sms.common events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when there is a failure in creating a common Snapshot(tm) copy. The SnapMirror(R) Sync relationship continues to be in "in-sync" status. The latest common Snapshot copy is used for recovery in case the relationship status changes to "out-of-sync." The common Snapshot copy should be created at scheduled intervals to decrease the recovery time of "out-of-sync" relationships.
+sms.common events are presented when there is a failure in creating a common snapshot which is typically fixed by updating configuration.
 
 
 == sms.common.snapshot.failed

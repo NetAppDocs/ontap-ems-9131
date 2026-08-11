@@ -14,7 +14,7 @@ summary: spm.vserverdr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Vserver DR process involuntarily terminates. This might cause interruptions in the automatic or scheduled configuration backup of the Vserver's data and configuration.
+spm.vserverdr events are presented when the Vserver DR process involuntarily terminates which may require restarting affected services or nodes.
 
 
 == spm.vserverdr.process.exit

@@ -14,7 +14,7 @@ summary: callhome.fc events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Fibre Channel arbitrated loop (FC-AL) has link failures. You need to resolve this issue promptly. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.fc events are presented when a Fibre Channel arbitrated loop (FC-AL) has link failures which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.fc.al.link

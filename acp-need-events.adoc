@@ -14,7 +14,7 @@ summary: acp.need events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Alternate Control Path (ACP) Administrator determines that the ACP processor is running an older firmware revision that supports only the Secure Socket Library (SSL) channel. The "/etc/acpp_fw" directory requires the latest firmware file for the update to succeed. This module is marked as inactive.
+acp.need events are presented when the Alternate Control Path (ACP) Administrator determines that the ACP processor is running an older firmware revision that supports only the Secure Socket Library (SSL) channel which is typically fixed by following the documented corrective steps.
 
 
 == acp.need.firmware.update

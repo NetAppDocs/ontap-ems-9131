@@ -14,7 +14,7 @@ summary: bsdsocket.queuelimit events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the number of connection requests for a socket reaches the maximum. These connection requests include partially completed connections and connections that are ready to be accepted.
+bsdsocket.queuelimit events are presented when the number of connection requests for a socket reaches the maximum number which may require contacting NetApp support.
 
 
 == bsdsocket.queueLimit.reached

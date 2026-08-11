@@ -14,7 +14,7 @@ summary: vifmgr.clusterlfoconf events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the failover policy and failover group for a cluster LIF are restored to their default values. It is necessary to restore the default values for these settings to ensure non-disruptive operation.
+vifmgr.clusterlfoconf events are presented when the failover policy and failover group for a cluster LIF are restored to their default values which typically does not require corrective action.
 
 
 == vifmgr.clusterLFOConf

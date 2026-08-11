@@ -14,7 +14,7 @@ summary: dbs.disconn events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the distributed block store detects that a cluster pair is disconnected or configured incorrectly. The distibuted block store is responsible for managing the data that backs the flexible volumes.
+dbs.disconn events are presented when the distributed block store detects that a cluster pair is disconnected or configured incorrectly.
 
 
 == dbs.disconn.cluster.pair

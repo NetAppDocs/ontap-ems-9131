@@ -14,7 +14,7 @@ summary: vifmgr.lifs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the total number of logical interfaces (LIFs) exceeds the supported per-cluster limit. To ensure system stability, the total number of IP data LIFs should be kept at or below this limit.
+vifmgr.lifs events are presented when the total number of logical interfaces (LIFs) exceeds the supported per-cluster limit which is typically fixed by verifying system state and connectivity.
 
 
 == vifmgr.lifs.clusterlimit

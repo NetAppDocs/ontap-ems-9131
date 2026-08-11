@@ -14,7 +14,7 @@ summary: socket.sndbuflimit events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an overflow is detected in the TCP socket send buffer. The TCP socket send buffer can hold a maximum of INT_MAX (2147483647) bytes.
+socket.sndbuflimit events are presented when an overflow is detected in the TCP socket send buffer which is typically fixed by following the documented corrective steps.
 
 
 == socket.sndbuflimit.exceeded

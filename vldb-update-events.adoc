@@ -14,7 +14,7 @@ summary: vldb.update events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the aggregate ownership update fails during switchover. The update is initiated by the management gateway daemon (mgwd), to fetch aggregate information from all of the nodes in the cluster and to update the volume location database (VLDB).
+vldb.update events are presented when the aggregate ownership update fails during switchover which may require contacting NetApp support.
 
 
 == vldb.update.duringsofail

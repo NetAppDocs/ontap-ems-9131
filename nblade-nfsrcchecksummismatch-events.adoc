@@ -14,7 +14,7 @@ summary: nblade.nfsrcchecksummismatch events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the server detects a retransmitted request from the client with a modified payload. Modified requests from the client could cause corruption and pose a security threat to the server. Please use the information in the event to identify and monitor the bad client connection.
+nblade.nfsrcchecksummismatch events are presented when the server detects a retransmitted request from the client with a modified payload which is typically fixed by following the documented corrective steps.
 
 
 == Nblade.nfsRCChecksumMismatch

@@ -14,7 +14,7 @@ summary: wafl.delete events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system encounters a lost indirect block while deleting a file. As a result, some space occupied by the file being deleted might not be reclaimed.
+wafl.delete events are presented when the system encounters a lost indirect block while deleting a file which is typically fixed by following the documented corrective steps.
 
 
 == wafl.delete.bad.indirect

@@ -14,7 +14,7 @@ summary: dbs.block events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) successfully completes a block service repair operation involving block rewrites to all BServices that are replicas for the block . See the previous data related events for further information. If the original DBS event specifies multiple drives, then an EMS event is generated for each drive.
+dbs.block events are presented when a Distributed Block Store (DBS) successfully completes a block service repair operation involving block rewrites to all BServices that are replicas for the block . See the previous data related events for further information.
 
 
 == dbs.block.repair.success

@@ -14,7 +14,7 @@ summary: spm.timestate events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the subsystem managing timekeeping parameters (time_state) stops running. The failure of this subsystem can cause Network Time Protocol (NTP) settings and the time zone to be inconsistent among subsystems. This might also have an effect on time displayed in log messages.
+spm.timestate events are presented when the subsystem managing timekeeping parameters (time_state) stops running which may require contacting NetApp support.
 
 
 == spm.timeState.process.exit

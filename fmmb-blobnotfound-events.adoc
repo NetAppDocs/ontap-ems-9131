@@ -14,7 +14,7 @@ summary: fmmb.blobnotfound events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a mailbox 'blob' is not read from the on-disk mailbox data structure. A 'blob' is a piece of data which has been stored for a non-High Availability (HA) Data ONTAP(R) subsystem in the mailbox.
+fmmb.blobnotfound events are presented when a mailbox 'blob' is not read from the on-disk mailbox data structure which is typically fixed by updating configuration.
 
 
 == fmmb.BlobNotFound

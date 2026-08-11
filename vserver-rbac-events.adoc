@@ -14,7 +14,7 @@ summary: vserver.rbac events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a custom role associated with a Storage Virtual Machine (SVM) has an aliased command directory associated with it. SVM custom roles must be associated with actual command directories and commands, not aliases to them. The aliased commands associated with SVM custom roles will not be available under SVM context.
+vserver.rbac events are presented when a custom role associated with a Storage Virtual Machine (SVM) has an aliased command directory associated with it which is typically fixed by following the documented corrective steps.
 
 
 == vserver.rbac.alias.command

@@ -14,7 +14,7 @@ summary: sp.userlist events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when there is an error updating user information for the Service Processor (SP). When user information is updated on Data ONTAP(R), the SP is also updated with the new changes. This enables users to log in to the SP. User information update for the SP might have failed due to a communication error with the SP or the SP might not be operational.
+sp.userlist events are presented when there is an error updating user information for the Service Processor (SP) which may require a reboot.
 
 
 == sp.userlist.update.failed

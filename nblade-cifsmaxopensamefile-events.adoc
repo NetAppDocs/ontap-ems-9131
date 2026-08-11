@@ -14,7 +14,7 @@ summary: nblade.cifsmaxopensamefile events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the number of times a user tries to open a file over a TCP connection is exceeded. This request and any further requests to open the same file by the user are denied until some open instances of the file are closed. This typically indicates abnormal application behavior.
+nblade.cifsmaxopensamefile events are presented when the number of times a user tries to open a file over a TCP connection is exceeded which is typically fixed by verifying system state and updating configuration.
 
 
 == Nblade.cifsMaxOpenSameFile

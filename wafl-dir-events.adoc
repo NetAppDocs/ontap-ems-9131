@@ -14,7 +14,7 @@ summary: wafl.dir events
 :imagesdir: ./media/
 
 [.lead]
-This message indicates that CIFS directory conversion is in progress and WAFL will not hang due to timeout. Directory conversion happens the first time a volume with 8.3-format names is accessed by a CIFS client.
+wafl.dir events are presented when indicates that CIFS directory conversion is in progress and WAFL will not hang due to timeout which typically does not require corrective action.
 
 
 == wafl.dir.convert

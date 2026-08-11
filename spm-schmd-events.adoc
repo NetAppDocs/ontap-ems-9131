@@ -14,7 +14,7 @@ summary: spm.schmd events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the System Connectivity Health Monitor process (schmd) involuntarily terminates. The termination of this process can affect system connectivity monitoring for HA pair in SAS subsystem.
+spm.schmd events are presented when the System Connectivity Health Monitor process (schmd) involuntarily terminates which may require restarting affected services or nodes.
 
 
 == spm.schmd.process.exit

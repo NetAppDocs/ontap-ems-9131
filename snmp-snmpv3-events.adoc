@@ -14,7 +14,7 @@ summary: snmp.snmpv3 events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when SNMPv3 is disabled due to a cluster in FIPS mode being upgraded to a version of ONTAP(R) software supporting the SNMPv3 FIPS feature. FIPS compliance adds more stringent limitations on SNMP users and SNMP traphosts, so SNMPv3 access has been disabled to allow the current SNMP users and SNMP traphosts to be reevaluated. If SNMPv3 functionality is required, you can reenable it; if cluster is still in FIPS mode at that time, any existing SNMP users and SNMP traphosts that are noncompliant to FIPS will be deleted. Until SNMPv3 is reenabled, SNMPv3 users cannot be created, SNMPv3 traphosts cannot be added and SNMPv3 packets will not be processed.
+snmp.snmpv3 events are presented when sNMPv3 is disabled due to a cluster in FIPS mode being upgraded to a version of ONTAP(R) software supporting the SNMPv3 FIPS feature which is typically fixed by following the documented corrective steps.
 
 
 == snmp.snmpv3.enable

@@ -14,7 +14,7 @@ summary: callhome.diskown events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when too many disks have been installed. An attempt is made to assign more disks than the maximum that can be supported on this node. This problem must be resolved before the system is rebooted. If your system is configured to do so, it generates and transmits an AutoSupport(tm) (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.diskown events are presented when too many disks have been installed which may require contacting NetApp support.
 
 
 == callhome.diskown.AssignExceeded

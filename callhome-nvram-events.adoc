@@ -14,7 +14,7 @@ summary: callhome.nvram events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when excessive correctable error-correcting code (ECC) memory errors are reported by the NVRAM complex. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.nvram events are presented when excessive correctable error-correcting code (ECC) memory errors are reported by the NVRAM complex which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.nvram.cecc

@@ -14,7 +14,7 @@ summary: callhome.scsi events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a LUN (Logical Unit Number) mapping or igroup type misconfiguration has been detected when the cluster interconnect has transitioned from down to up. The detected misconfiguration problems will typically include cases of having a LUN on each storage controller mapped to the same LUN for the same initiator. When the cluster interconnect is down, LUN mapping changes are prevented unless overridden. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.scsi events are presented when a LUN (Logical Unit Number) mapping or igroup type misconfiguration has been detected when the cluster interconnect has transitioned from down to up which may require contacting NetApp support.
 
 
 == callhome.scsi.tgt.misconfig

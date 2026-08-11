@@ -14,7 +14,7 @@ summary: dbs.prestartup events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Distributed Block Store (DBS) prestartup event occurs. Several events might be posted during startup.
+dbs.prestartup events are presented when a Distributed Block Store (DBS) prestartup event occurs. Several events might be posted during startup.
 
 
 == dbs.prestartup

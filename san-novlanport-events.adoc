@@ -14,7 +14,7 @@ summary: san.novlanport events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a clustered Data ONTAP(R) system is in a MetroCluster(TM) configuration. The system cannot find a VLAN port on the destination cluster node (that is, the DR partner) to host an iSCSI LIF, and has instead chosen to place the LIF on a physical port.
+san.novlanport events are presented when a clustered Data ONTAP(R) system is in a MetroCluster(TM) configuration which is typically fixed by verifying system state and connectivity.
 
 
 == san.NoVlanPort

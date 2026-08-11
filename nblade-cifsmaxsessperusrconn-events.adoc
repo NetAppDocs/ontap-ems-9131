@@ -14,7 +14,7 @@ summary: nblade.cifsmaxsessperusrconn events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the number of sessions allowed per user over a TCP connection is exceeded. This request and any further session establishment requests are denied until some sessions are released. This is typically caused by a faulty client or application.
+nblade.cifsmaxsessperusrconn events are presented when the number of sessions allowed per user over a TCP connection is exceeded which is typically fixed by verifying system state and updating configuration.
 
 
 == Nblade.cifsMaxSessPerUsrConn

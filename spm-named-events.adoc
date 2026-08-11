@@ -14,7 +14,7 @@ summary: spm.named events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Domain Name Service (DNS) name resolution daemon 'named' involuntarily exits. This error can have one or more causes and might be related to some recent or previous operations. The failure of this daemon can affect DNS zone-based access. In particular, the cluster might no longer be able to resolve DNS zone names to IP addresses and clients that connect to the zone using zone names.
+spm.named events are presented when the Domain Name Service (DNS) name resolution daemon 'named' involuntarily exits which may require contacting NetApp support.
 
 
 == spm.named.process.exit

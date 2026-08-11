@@ -14,7 +14,7 @@ summary: callhome.ch events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a degraded chassis power supply unit (PSU) state exists. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.ch events are presented when a degraded chassis power supply unit (PSU) state exists which may require reseating or replacing affected hardware.
 
 
 == callhome.ch.ps.degraded

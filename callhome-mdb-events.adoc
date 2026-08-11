@@ -14,7 +14,7 @@ summary: callhome.mdb events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs after an unsuccessful recovery of an inconsistent management database. The message is from the management processes identified by name in the auto-support subject line. The unsuccessful recovery results in the loss of all records contained in the 'job history' and 'rdb statistics' databases. Also, no additional records will be collected until the problem is resolved by NetApp technical support. The affected management process will function normally without these databases.
+callhome.mdb events are presented when after an unsuccessful recovery of an inconsistent management database which may require contacting NetApp support.
 
 
 == callhome.mdb.recovery.unsuccessful

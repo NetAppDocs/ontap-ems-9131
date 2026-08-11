@@ -14,7 +14,7 @@ summary: tape.config events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the tape configuration file has a format error in a required parameter or is missing a required parameter. The error prevents the file from being used to specify parameters for the tape drive. Data ONTAP(R) examines tape configuration files in the storage controller's /etc/tape_config (7-Mode) or /mroot/etc/tape_config (Cluster-Mode) directory to dynamically qualify devices that are not part of the Data ONTAP image. This error can occur if a configuration file is altered, an action that is not recommended.
+tape.config events are presented when the tape configuration file has a format error in a required parameter or is missing a required parameter which is typically fixed by following the documented corrective steps.
 
 
 == tape.config.badKey

@@ -14,7 +14,7 @@ summary: wafl.spcmgmt events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a space management strategy or an autosize grow threshold for a volume is being configured and the autogrow or autodelete thresholds conflict with the space-mgmt-try-first policy. The conflict can arise when the autogrow threshold is less than the autodelete threshold and the space-mgmt-try-first policy is configured for "snap_delete". The conflict can also arise when the autogrow threshold is more than the autodelete threshold and space-mgmt-try-first is configured for "volume_grow".
+wafl.spcmgmt events are presented when a space management strategy or an autosize grow threshold for a volume is being configured and the autogrow or autodelete thresholds conflict with the space-mgmt-try-first policy which is typically fixed by updating configuration.
 
 
 == wafl.spcmgmt.policyConflict

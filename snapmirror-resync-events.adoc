@@ -14,7 +14,7 @@ summary: snapmirror.resync events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a flexible volume restored from a Snapshot(tm) copy might not be able to relinquish free blocks to its containing aggregate. As a result, the containing aggregate might run out of space if this condition continues past the next incremental SnapMirror(R) transfer.
+snapmirror.resync events are presented when a flexible volume restored from a snapshot might not be able to relinquish free blocks to its containing aggregate which is typically fixed by verifying system state and updating configuration.
 
 
 == snapmirror.resync.blkRclmtn

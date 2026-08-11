@@ -14,7 +14,7 @@ summary: hm.alert events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a system health monitor alert is successfully cleared. Because health monitors evaluate the conditions dynamically, they might determine that the alerting condition is no longer valid. The alert is then removed from the system and this message is generated.
+hm.alert events are presented when a system health monitor alert is successfully cleared which typically does not require corrective action.
 
 
 == hm.alert.cleared

@@ -14,7 +14,7 @@ summary: callhome.tgt events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the SCSI Target subsystem begins failing SCSI Write commands due to to an out of space (ENOSPC) condition on the appliance. This event is seen only when thin provisioning is used together with FCP or iSCSI. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.tgt events are presented when the SCSI Target subsystem begins failing SCSI Write commands due to to an out of space (ENOSPC) condition on the appliance which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.tgt.lun.nospc

@@ -14,7 +14,7 @@ summary: spm.mgwd events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Management Gateway (mgwd) subsystem involuntarily exits. The subsystem provides administration services to manage the cluster and current node. This failure can disrupt administrative tasks that are being performed on the current node. The system attempts to recover by restarting the subsystem. While this situation persists, if a Cluster Management Logical Interface (LIF) is hosted on the current node, migrate it to another node in the cluster using another node management LIF or console access to another node. If the subsystem does not recover within the threshold number of retries, then an AutoSupport message is sent.
+spm.mgwd events are presented when the Management Gateway (mgwd) subsystem involuntarily exits which may require restarting affected services or nodes.
 
 
 == spm.mgwd.process.exit

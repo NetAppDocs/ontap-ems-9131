@@ -14,7 +14,7 @@ summary: sp.reboot events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the node's Service Processor (SP) or Baseboard Management Controller (BMC) log partition is mounted as read-only after an internal error has occurred. The system automatically reboots the SP or BMC to attempt to remount the log partition as read-write.
+sp.reboot events are presented when the node's Service Processor (SP) or Baseboard Management Controller (BMC) log partition is mounted as read-only after an internal error has occurred which typically does not require corrective action.
 
 
 == sp.reboot.ro.partition

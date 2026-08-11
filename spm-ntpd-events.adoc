@@ -14,7 +14,7 @@ summary: spm.ntpd events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Network Time Protocol Daemon process (ntpd) involuntarily terminates. The termination of this process can affect synchronization of system time with network time servers.
+spm.ntpd events are presented when the Network Time Protocol Daemon process (ntpd) involuntarily terminates which may require restarting affected services or nodes.
 
 
 == spm.ntpd.process.exit

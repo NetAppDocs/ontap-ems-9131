@@ -14,7 +14,7 @@ summary: fmmb.major events
 :imagesdir: ./media/
 
 [.lead]
-This event is issued when the HA Mailbox major reset data should exist and it doesn't. The major reset data in the mailbox is created and used when there is a major change of information kept in the HA mailbox records.
+fmmb.major events are presented when the HA Mailbox major reset data should exist and it doesn't, which typically does not require corrective action.
 
 
 == fmmb.major.reset.invalid

@@ -14,7 +14,7 @@ summary: moveagent.swapvldb events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a 'volume move' operation finishes moving the volume to the destination but fails to update the volume location database (VLDB). Failing to update the VLDB causes continued attempts to access the original location instead of the new location. The system continues to retry the operation until it is successful. In the time between the failure and a successful retry, there might be disruption to data access on the volume being moved.
+moveagent.swapvldb events are presented when a 'volume move' operation finishes moving the volume to the destination but fails to update the volume location database (VLDB) which is typically fixed by verifying system state and connectivity.
 
 
 == moveagent.swapvldb.fail

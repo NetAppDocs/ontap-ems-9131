@@ -14,7 +14,7 @@ summary: cft.trans events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) is successful.
+cft.trans events are presented when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) is successful, which may be fixed by contact technical support for assistance.
 
 
 == cft.trans.aggr.end

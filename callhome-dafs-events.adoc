@@ -14,7 +14,7 @@ summary: callhome.dafs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the DAFS (Direct Acess File System) NIC (Network Interface Controller) has stopped while DAFS was running. This is caused by a failure of the NIC processor firmware during heavy and complex workloads. DAFS can usually recover and continue. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.dafs events are presented when the DAFS (Direct Acess File System) NIC (Network Interface Controller) has stopped while DAFS was running which may require a reboot.
 
 
 == callhome.dafs.nic.stop

@@ -14,7 +14,7 @@ summary: callhome.shlf events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects faulty hardware on the disk shelf, such as a fan, power supply unit (PSU), or failing temperature sensor. The problem might be environmental (temperature or faulty power) or hardware-related. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.shlf events are presented when the system detects faulty hardware on the disk shelf, such as a fan, power supply unit (PSU), or failing temperature sensor which may require reseating or replacing affected hardware.
 
 
 == callhome.shlf.fan

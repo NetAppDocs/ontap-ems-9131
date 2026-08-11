@@ -14,7 +14,7 @@ summary: director.aggr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an aggregate is being reassigned from one node to another node. The output contains the Firefly ID and node ID of both nodes as well as whether or not the operation was done forcefully. The value of isForceful is "true" if an aggregate is moved in response to a error condition on the cluster rather than a user requested operation.
+director.aggr events are presented when an aggregate is being reassigned from one node to another node. The output contains the Firefly ID and node ID of both nodes as well as whether or not the operation was done forcefully.
 
 
 == director.aggr.reassigned

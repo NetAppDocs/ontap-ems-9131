@@ -14,7 +14,7 @@ summary: ffrespmon.nfs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a data interface's IP address is unreachable. The NFS service might be affected and unresponsive.
+ffrespmon.nfs events are presented when a data interface's IP address is unreachable. The NFS service might be affected and unresponsive.
 
 
 == ffRespMon.nfs.unresponsive

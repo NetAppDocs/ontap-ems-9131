@@ -14,7 +14,7 @@ summary: spm.ypbind events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the NIS client binding daemon 'ypbind' involuntarily exits. This error can have one or more causes and might be related to some recent or previous operations. The termination of this daemon will affect all NIS-based services provided by the controller. In particular, it will no longer be possible to use NIS as a name service source for name lookups.
+spm.ypbind events are presented when the NIS client binding daemon 'ypbind' involuntarily exits which may require contacting NetApp support.
 
 
 == spm.ypbind.process.exit

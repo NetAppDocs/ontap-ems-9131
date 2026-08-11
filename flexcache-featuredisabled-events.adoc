@@ -14,7 +14,7 @@ summary: flexcache.featuredisabled events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an attempt is made to mount a FlexCache volume. FlexCache is no longer supported, please remove any remaining FlexCache volumes left over from upgrading the cluster.
+flexcache.featuredisabled events are presented when an attempt is made to mount a FlexCache volume which is typically fixed by verifying system state and connectivity.
 
 
 == flexcache.featureDisabled

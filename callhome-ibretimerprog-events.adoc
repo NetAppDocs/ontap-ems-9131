@@ -14,7 +14,7 @@ summary: callhome.ibretimerprog events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when InfiniBand (IB) retimer programming of the high- availability (HA) interconnect link failed after multiple retry attempts. The affected InfiniBand HA interconnect link is down. The failure can be due to any of the following reasons: InfiniBand device not found, GPIO read failure, QSFP register dump failure, QSFP parse failure, or retimer failure. If your system is configured to do so, it generates and transmits an AutoSupport (or "call home") message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.ibretimerprog events are presented when infiniBand (IB) retimer programming of the high- availability (HA) interconnect link failed after multiple retry attempts which may require contacting NetApp support.
 
 
 == callhome.ibretimerprog.fail

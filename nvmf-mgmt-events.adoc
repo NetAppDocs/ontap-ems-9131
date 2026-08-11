@@ -14,7 +14,7 @@ summary: nvmf.mgmt events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a management operation fails in an NVMe-oF subsystem. The NVMe-oF subsystem on this node will be out of sync with the subsystems on the other nodes in the cluster. This can result in the failure of administrative commands and IO.
+nvmf.mgmt events are presented when a management operation fails in an NVMe-oF subsystem which may require a reboot.
 
 
 == nvmf.mgmt.op.failed

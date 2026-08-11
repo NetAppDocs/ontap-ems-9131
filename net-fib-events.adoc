@@ -14,7 +14,7 @@ summary: net.fib events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a Vserver resource allocation fails. This leaves the system with an unusable Vserver, and additional Vservers cannot be created. This might also lead to system performance degradation.
+net.fib events are presented when a Vserver resource allocation fails which is typically fixed by verifying system state and connectivity.
 
 
 == net.fib.createfailed

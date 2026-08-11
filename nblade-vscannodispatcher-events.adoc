@@ -14,7 +14,7 @@ summary: nblade.vscannodispatcher events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the vscan-dispatcher component cannot be created. This might be due to internal errors on the system, such as nonavailability of memory. This might cause data unavailability if the scan-mandatory option is enabled.
+nblade.vscannodispatcher events are presented when the vscan-dispatcher component cannot be created which may require contacting NetApp support.
 
 
 == Nblade.vscanNoDispatcher

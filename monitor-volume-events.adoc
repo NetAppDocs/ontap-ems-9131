@@ -14,7 +14,7 @@ summary: monitor.volume events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when one or more file systems are full, typically indicating at least 98% full. The space usage is computed based on the active file system size and is computed by subtracting the value of the "Snapshot Reserve" field from the value of the "Used" field of the "volume show-space" command. Either a volume or an aggregate can be over 100% full due to space used or reserved by metadata. A value greater than 100% might cause Snapshot(TM) copy space to become unavailable or cause a volume to become logically overallocated. See the "vol.log.overalloc" EMS message for more information.
+monitor.volume events are presented when one or more file systems are full, typically indicating at least 98% full which is typically fixed by updating configuration.
 
 
 == monitor.volume.full

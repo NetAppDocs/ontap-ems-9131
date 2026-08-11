@@ -14,7 +14,7 @@ summary: callhome.bridge events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a bridge reboots unexpectedly. If your system is configured to do so, it generates and transmits an AutoSupport(tm) (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.bridge events are presented when a bridge reboots unexpectedly which may require a reboot.
 
 
 == callhome.bridge.reboot.unexp

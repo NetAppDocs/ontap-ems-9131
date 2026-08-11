@@ -14,7 +14,7 @@ summary: volaggr.offline events
 :imagesdir: ./media/
 
 [.lead]
-Some aggregates are forced offline. volume creation could cause duplicate FSIDs.
+volaggr.offline events are presented when some aggregates are forced offline which is typically fixed by following the documented corrective steps.
 
 
 == volaggr.offline

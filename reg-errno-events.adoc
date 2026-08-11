@@ -14,7 +14,7 @@ summary: reg.errno events
 :imagesdir: ./media/
 
 [.lead]
-This event is issued when Data ONTAP(tm) cannot add an errno-style error to the list of errors. The error must be added before the readable version is generated. No action by the system administrator is needed.
+reg.errno events are presented when Data ONTAP(tm) cannot add an errno-style error to the list of errors, which typically does not require corrective action.
 
 
 == reg.errno.addAfterReadable

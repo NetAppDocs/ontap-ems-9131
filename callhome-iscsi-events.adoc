@@ -14,7 +14,7 @@ summary: callhome.iscsi events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the iSCSI host bus adapter (HBA crashes. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.iscsi events are presented when the iSCSI host bus adapter (HBA crashes which may require a reboot.
 
 
 == callhome.iscsi.hba.crash

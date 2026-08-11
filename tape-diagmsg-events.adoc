@@ -14,7 +14,7 @@ summary: tape.diagmsg events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when there is a new state of the tape diagnostic message flag. Data ONTAP(R) is more or less verbose in reporting SCSI check conditions depending on the flag. Using a valid tape drive address [tape], diagnostic messages can be enabled using the "mt -f [tape] diag 1" (7-Mode or Cluster-Mode nodeshell) command. You can disable the extra message using the "mt -f [tape] diag 0" command. The default value is 0.
+tape.diagmsg events are presented when there is a new state of the tape diagnostic message flag which is typically fixed by verifying system state and connectivity.
 
 
 == tape.diagMsg

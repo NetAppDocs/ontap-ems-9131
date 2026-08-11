@@ -14,7 +14,7 @@ summary: raid.multierr events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when RAID encounters more errors than the RAID level protection affords, and RAID cannot recover the block. The blocks with errors are marked as bad. When the file system reads this bad block, an error is returned. The file system identifies the bad file and block and recommends the necessary corrective action.
+raid.multierr events are presented when rAID encounters more errors than the RAID level protection affords, and RAID cannot recover the block which is typically fixed by verifying system state and connectivity.
 
 
 == raid.multierr.bad.block

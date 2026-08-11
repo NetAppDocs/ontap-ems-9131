@@ -14,7 +14,7 @@ summary: wafl.shutdown events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs during shutdown, to indicate that a volume has not been marked clean. By itself, this is not necessarily a problem. When this event occurs in conjunction with WAFL inconsistency panics or higher-severity EMS events, this message can indicate a potential source of the inconsistencies.
+wafl.shutdown events are presented when during shutdown, to indicate that a volume has not been marked clean which may require contacting NetApp support.
 
 
 == wafl.shutdown.notClean

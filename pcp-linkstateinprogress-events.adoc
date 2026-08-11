@@ -14,7 +14,7 @@ summary: pcp.linkstateinprogress events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a change of network port state cannot be confirmed because another configuration task is in progress. The change of the network port state happens when the node is booting up or the administrator changes the network port state manually, via the "network port modify -up-admin [true|false]" command. The affected port might still be operating in the state before the attempted change. While this condition exists, any further configuration or status operations will not be possible.
+pcp.linkstateinprogress events are presented when a change of network port state cannot be confirmed because another configuration task is in progress which is typically fixed by following the documented corrective steps.
 
 
 == pcp.linkStateInProgress

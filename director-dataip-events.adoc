@@ -14,7 +14,7 @@ summary: director.dataip events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a data IP address is being reassigned from one node to another node. The output contains the node ID of both nodes as well as whether or not the operation was done forcefully. The value of isForceful is "true" if the data IP is moved in response to a error condition on the cluster rather than a user requested operation.
+director.dataip events are presented when a data IP address is being reassigned from one node to another node. The output contains the node ID of both nodes as well as whether or not the operation was done forcefully.
 
 
 == director.dataip.reassigned

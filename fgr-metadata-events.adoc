@@ -14,7 +14,7 @@ summary: fgr.metadata events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects an inconsistency in the volume capacity rebalancing metadata. As a consequence, the inconsistent metadata is deleted and new metadata will be repopulated according to latest volume capacity rebalancing state.
+fgr.metadata events are presented when the system detects an inconsistency in the volume capacity rebalancing metadata which is typically fixed by following the documented corrective steps.
 
 
 == fgr.metadata.repaired

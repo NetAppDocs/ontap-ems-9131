@@ -14,7 +14,7 @@ summary: nse.op events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when ONTAP(R) does not succeed in performing an operation on a NetApp(R) Storage Encryption (NSE) self-encrypting drive (SED). The message applies to drives that implement either the Trusted Computing Group (TCG) "Enterprise" or "Opal" specification. Some aspect of the operation of NSE drives is compromised.
+nse.op events are presented when oNTAP(R) does not succeed in performing an operation on a NetApp(R) Storage Encryption (NSE) self-encrypting drive (SED) which may require reseating or replacing affected hardware.
 
 
 == nse.op.failed

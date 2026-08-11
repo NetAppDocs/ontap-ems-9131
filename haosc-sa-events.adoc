@@ -14,7 +14,7 @@ summary: haosc.sa events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when nonvolatile memory on a stand-alone system is configured for a high-availability system. Only half of the available nonvolatile memory will be used and system performance will be affected.
+haosc.sa events are presented when nonvolatile memory on a stand-alone system is configured for a high-availability system which may require a reboot.
 
 
 == haosc.sa.config

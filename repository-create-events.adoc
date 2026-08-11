@@ -14,7 +14,7 @@ summary: repository.create events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs during a create request from a client, when the Infinite Volume namespace redirector encounters one or more of the following: 1. It made several attempts to create the item on some data constituents, but failed. It is possible that some data constituents, or aggregates in the Infinite Volume, or nodes in the cluster are not in a healthy state. 2. It could not find a data constituent in which to create the requested item. It is possible that the Infinite Volume is misconfigured or the configuration state of the Infinite Volume is corrupted.
+repository.create events are presented when the Infinite Volume namespace redirector encounters one or more of the following: 1 during a create request from a client, which is typically fixed by verifying system state and connectivity.
 
 
 == Repository.Create.Placement.Failed

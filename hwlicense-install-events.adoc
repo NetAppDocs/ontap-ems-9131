@@ -14,7 +14,7 @@ summary: hwlicense.install events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when download of the hardware license fails.
+hwlicense.install events are presented when download of the hardware license fails, which may be fixed by check for command syntax errors, the correct file path, or network connection issues.
 
 
 == hwlicense.install.fail.dl

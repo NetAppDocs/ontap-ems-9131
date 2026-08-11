@@ -14,7 +14,7 @@ summary: wafl.snap events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the system detects a possible change in the autodelete or autosize policy of the volume. This can happen when a version of Data ONTAP(R) is loaded that might not support the reclaim policy currently set in the active filesystem.
+wafl.snap events are presented when the system detects a possible change in the autodelete or autosize policy of the volume which is typically fixed by following the documented corrective steps.
 
 
 == wafl.snap.autoDel.policyChg

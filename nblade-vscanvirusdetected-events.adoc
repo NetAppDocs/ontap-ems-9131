@@ -14,7 +14,7 @@ summary: nblade.vscanvirusdetected events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a vscan server reports an error to the storage system. Normally this indicates that a virus has been found by the vscan server; however, other error conditions on the vscan server can result in this event. Client access to the file is denied. The vscan server might, depending on its settings and configuration, clean the file, quarantine it, or delete it.
+nblade.vscanvirusdetected events are presented when a vscan server reports an error to the storage system which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.vscanVirusDetected

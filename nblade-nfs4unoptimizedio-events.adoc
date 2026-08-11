@@ -14,7 +14,7 @@ summary: nblade.nfs4unoptimizedio events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a session trunking group that is created by the NFSv41 client is split across multiple nodes. This can occur when one or more trunked data LIFs used in the trunking group migrate to the partner node. A split session trunking group can severely degrade performance of NFS client operations.
+nblade.nfs4unoptimizedio events are presented when a session trunking group that is created by the NFSv41 client is split across multiple nodes which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.nfs4UnOptimizedIO

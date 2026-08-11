@@ -14,7 +14,7 @@ summary: nblade.httpmaxconntimeouts events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the HTTP subsystem, which monitors connection timeouts due to an unresponsive client or data not received from the client within a specified time, especially a PUT request or an HTTP Request containing Request Body. If the number of timeouts allowed in a given period of time is being exceeded, it could be due to network failures or DoS(Denial of Service) attacks. This might result in HTTP client connection failures, because most connections are using resources and waiting for data.
+nblade.httpmaxconntimeouts events are presented when the HTTP subsystem, which monitors connection timeouts due to an unresponsive client or data not received from the client within a specified time, especially a PUT request or an HTTP Request containing Request Body which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.httpMaxConnTimeOuts

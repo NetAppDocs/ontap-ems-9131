@@ -14,7 +14,7 @@ summary: ccma.disabled events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Performance Archive has been disabled for more than an hour. This is caused by setting the -is-enabled flag to false. This message will be repeated every hour that the archiver is turned off. The messages will only displayed once a day.
+ccma.disabled events are presented when the Performance Archive has been disabled for more than an hour which is typically fixed by updating configuration.
 
 
 == ccma.disabled

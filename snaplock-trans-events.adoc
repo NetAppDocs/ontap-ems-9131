@@ -14,7 +14,7 @@ summary: snaplock.trans events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when autocommit period is adjusted on a Snaplock volume upon transition. When a 7 mode SnapLock volume is transitioned to Data ONTAP(R) 9.4 and later, if we find the autocommit period to be greater than 10 years, we change it to 10 years, which is the maximum supported value for autocommit period in Data ONTAP(R) 9.4.
+snaplock.trans events are presented when autocommit period is adjusted on a Snaplock volume upon transition which typically does not require corrective action.
 
 
 == snaplock.trans.autocommit

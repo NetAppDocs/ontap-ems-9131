@@ -14,7 +14,7 @@ summary: disk.bdfu events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the background drive firmware update process fails to unlock SAS NetApp(R) Storage Encryption (NSE) drives in FIPS-compliance mode. The FIPS-certified SAS NSE drives must be unlocked with a valid authentication key before firmware can be downloaded to them. If the number of failed unlock attempts reaches a certain threshold, the drives will be locked out, leading to permanent loss of data in certain conditions. The system will automatically suspend the background drive firmware update for 12 hours, after which it is reenabled.
+disk.bdfu events are presented when the background drive firmware update process fails to unlock SAS NetApp(R) Storage Encryption (NSE) drives in FIPS-compliance mode which may require contacting NetApp support.
 
 
 == disk.bdfu.suspended

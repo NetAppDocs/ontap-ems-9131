@@ -14,7 +14,7 @@ summary: callhome.nvdimm events
 :imagesdir: ./media/
 
 [.lead]
-This event occurs when excessive correctable error-correcting code (ECC) memory errors are reported by the NVDIMM. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.nvdimm events are presented when excessive correctable error-correcting code (ECC) memory errors are reported by the NVDIMM, which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.nvdimm.cecc

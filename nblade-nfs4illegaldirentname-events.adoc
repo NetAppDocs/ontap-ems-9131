@@ -14,7 +14,7 @@ summary: nblade.nfs4illegaldirentname events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a user attempts to list a directory over NFSv4 that contains an entry name with non UTF-8 characters. The problematic directory entry name was most likely created over NFSv2 or NFSv3 and could not be translated to Unicode using the translation table determined by the virtual server's language setting. A possible reason for this could be a client or server language misconfiguration issue.
+nblade.nfs4illegaldirentname events are presented when a user attempts to list a directory over NFSv4 that contains an entry name with non UTF-8 characters which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.Nfs4IllegalDirentName

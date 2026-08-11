@@ -14,7 +14,7 @@ summary: nblade.nocsmsession events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the local node could not acquire a Connection Session Manager (CSM) session. CSM sessions are used to communicate file operations between nodes in the cluster. This might be a transient condition. If this condition persists, volumes on the destination node remain unavailable from this node. The destination node can be either local or remote.
+nblade.nocsmsession events are presented when the local node could not acquire a Connection Session Manager (CSM) session which is typically fixed by verifying system state and connectivity.
 
 
 == Nblade.noCsmSession

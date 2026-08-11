@@ -14,7 +14,7 @@ summary: nblade.nbnstoomanylifs events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the NetBIOS Name Service receives more than 25 IP addresses for a name registration request. This is typically caused because of an upgrade from a previous release that had more than 25 IP addresses configured for a Vserver and WINS was configured. In such a scenario, clients might not be able to access data because some of the IP addresses might not have registered with WINS.
+nblade.nbnstoomanylifs events are presented when the NetBIOS Name Service receives more than 25 IP addresses for a name registration request which is typically fixed by updating configuration.
 
 
 == Nblade.NbnsTooManyLifs

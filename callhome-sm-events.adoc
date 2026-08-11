@@ -14,7 +14,7 @@ summary: callhome.sm events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a break operation on a SnapMirror(R) relationship that is a part of VserverDR fails. If your system is configured to do so, it generates and transmits an AutoSupport (or "call home") message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.sm events are presented when a break operation on a SnapMirror(R) relationship that is a part of VserverDR fails which may require contacting NetApp support.
 
 
 == callhome.sm.vsdr.break.fail

@@ -14,7 +14,7 @@ summary: token.pit events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the token manager cannot create a PIT file in a volume. This can happen for the following reasons: insufficient space in the volume, unable to create the directory, or unable to set attributes.
+token.pit events are presented when the token manager cannot create a PIT file in a volume which typically does not require corrective action.
 
 
 == token.pit.file.create.info

@@ -14,7 +14,7 @@ summary: repl.data events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when compacted data is replicated to a volume that does not have data compaction enabled. The data is uncompacted on the destination volume and its original contents are written.
+repl.data events are presented when compacted data is replicated to a volume that does not have data compaction enabled which typically does not require corrective action.
 
 
 == repl.data.uncompacted

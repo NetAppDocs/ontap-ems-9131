@@ -14,7 +14,7 @@ summary: monitor.brokendisk events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a node is in a degraded state because of a broken disk. The timeout values indicate how long the system will run after each boot before shutting down because of this condition. Shutdown is to encourage you to replace broken disks. * The timeout[123] values are duplicated as a convenience for the Syslog message, which prints out the value three times.
+monitor.brokendisk events are presented when a node is in a degraded state because of a broken disk which is typically fixed by verifying system state and updating configuration.
 
 
 == monitor.brokenDisk.notice

@@ -14,7 +14,7 @@ summary: rlm.network events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Remote LAN Module (RLM) detects a link error on the RLM network port. This can happen if a network cable is not plugged into the RLM network port. It can also happen if the network that the RLM is connected to cannot run at 10/100 Mbps.
+rlm.network events are presented when the Remote LAN Module (RLM) detects a link error on the RLM network port which is typically fixed by verifying system state and connectivity.
 
 
 == rlm.network.link.down

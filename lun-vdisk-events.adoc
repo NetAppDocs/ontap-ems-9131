@@ -14,7 +14,7 @@ summary: lun.vdisk events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a volume contains more than the supported limit of LUNs in the volume. Performance degradation in volume management operations may occur as a result and it will not be possible to create more LUNs in this volume.
+lun.vdisk events are presented when a volume contains more than the supported limit of LUNs in the volume which is typically fixed by following the documented corrective steps.
 
 
 == LUN.vdisk.cnt.exceeded

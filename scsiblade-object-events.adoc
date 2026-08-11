@@ -14,7 +14,7 @@ summary: scsiblade.object events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a SAN management event receives a timeout error due to network congestion in the system and all efforts of recovery fail. The specific SAN object for which the management event is intended will be out of sync and will have different values in cache and in persistent store. Access to LUNs within the Vserver might be affected.
+scsiblade.object events are presented when a SAN management event receives a timeout error due to network congestion in the system and all efforts of recovery fail which may require contacting NetApp support.
 
 
 == scsiblade.object.out.of.sync

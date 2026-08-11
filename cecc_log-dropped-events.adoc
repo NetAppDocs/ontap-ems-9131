@@ -14,7 +14,7 @@ summary: cecc_log.dropped events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the ECC error logger dropped some correctable ECC errors without logging them. Typically, correctable ECC errors are logged in the system even though they are automatically corrected. They are dropped due to lack of buffer space in the ECC error logger. This might be a sign of high frequency of ECC errors. If the number of ECC errors dropped crosses a certain predefined threshold, the ECC error logger issues a cecc_log.masked message.
+cecc_log.dropped events are presented when the ECC error logger dropped some correctable ECC errors without logging them which typically does not require corrective action.
 
 
 == cecc_log.dropped

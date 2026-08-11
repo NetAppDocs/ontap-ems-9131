@@ -14,7 +14,7 @@ summary: callhome.nvme events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a directly attached NVMe module has worn out and is at the end of its write life. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.nvme events are presented when a directly attached NVMe module has worn out and is at the end of its write life which may require contacting NetApp support.
 
 
 == callhome.nvme.exhausted

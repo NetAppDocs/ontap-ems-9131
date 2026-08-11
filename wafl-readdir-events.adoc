@@ -14,7 +14,7 @@ summary: wafl.readdir events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when a READDIR file operation has exceeded the timeout that it is allowed to run in WAFL. This can be the result of very large or sparse directories, and corrective action is recommended.
+wafl.readdir events are presented when a READDIR file operation has exceeded the timeout that it is allowed to run in WAFL which is typically fixed by verifying system state and connectivity.
 
 
 == wafl.readdir.expired

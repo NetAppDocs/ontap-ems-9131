@@ -14,7 +14,7 @@ summary: sis.revert events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the Single Instance Storage (SIS) volume command 'sis revert_to' has failed. This might prevent running generic Data ONTAP(R) 'revert_to' command successfully
+sis.revert events are presented when the Single Instance Storage (SIS) volume command 'sis revert_to' has failed which typically does not require corrective action.
 
 
 == sis.revert.to.has.Aborted

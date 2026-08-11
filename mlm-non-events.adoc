@@ -14,7 +14,7 @@ summary: mlm.non events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when Data ONTAP(R) detects non-optimized usage of an array's target port. This message indicates degradation of I/O throughput for the indicated array's target port and the cause should be corrected.
+mlm.non events are presented when data ONTAP(R) detects non-optimized usage of an array's target port which is typically fixed by updating configuration.
 
 
 == mlm.non.optimized.TPusage

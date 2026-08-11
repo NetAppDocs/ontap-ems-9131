@@ -14,7 +14,7 @@ summary: monitor.vol events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when one or more file systems are full, typically indicating at least 98% full. Space usage is computed based on the active file system size as well as all of the space saved by storage efficiency features. This value is computed by subtracting the value of the "Snapshot Reserve" field, and is equivalent to the "logical-used" field of the "volume show-space" command. The volume can be over 100% full due to space used or including savings by storage efficiency features or reserved by metadata. A value greater than 100% can cause the volume to become logically overallocated. See the "vol.log.overalloc.inc.sav" event message for more information.
+monitor.vol events are presented when one or more file systems are full, typically indicating at least 98% full which is typically fixed by updating configuration.
 
 
 == monitor.vol.full.inc.sav

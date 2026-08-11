@@ -14,7 +14,7 @@ summary: nblade.nfsv4nsdbdomainmismatch events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when an NFSv4 client queries or updates the user or group attribute of a file object but the requested value does not match the '-v4-id-domain' option value of a virtual server's NFS service. In NFSv4, users and groups are represented as names of the form string@domain. The domain string must match on the client and server to ensure correct operation. The NFSv4 client request, on whose behalf this event message is issued, is rejected with an NFS4ERR_BADOWNER error.
+nblade.nfsv4nsdbdomainmismatch events are presented when an NFSv4 client queries or updates the user or group attribute of a file object but the requested value does not match the '-v4-id-domain' option value of a virtual server's NFS service which is typically fixed by updating configuration.
 
 
 == Nblade.Nfsv4NsdbDomainMismatch

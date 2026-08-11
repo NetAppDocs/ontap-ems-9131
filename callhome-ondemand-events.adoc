@@ -14,7 +14,7 @@ summary: callhome.ondemand events
 :imagesdir: ./media/
 
 [.lead]
-This message normally occurs when NetApp technical support has remotely requested an AutoSupport or 'call home' message of type TEST. This request is accomplished by use of the AutoSupport OnDemand Server (AODS) service. The intent of this AutoSupport is to collect only the information necessary to understand the configuration of the system and quickly deliver it. For this reason, the data collection is bounded by time taken to collect data and quantity of data collected. With less data collected, delivery over the internet is expected to be faster. The overall process from remote activation to delivery should be measurable in minutes. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.ondemand events are presented when NetApp technical support has remotely requested an AutoSupport or 'call home' message of type TEST, which typically does not require corrective action.
 
 
 == callhome.ondemand.invoke

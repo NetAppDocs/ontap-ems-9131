@@ -14,7 +14,7 @@ summary: cluster.switch events
 :imagesdir: ./media/
 
 [.lead]
-Redundant configuration is missing for cluster switches. If the remaining cluster switch fails, you can no longer access the cluster.
+cluster.switch events are presented when Redundant configuration is missing for cluster switches. If the remaining cluster switch fails, you can no longer access the cluster, which may be fixed by 1) ensure that a redundant pair of cluster switches exists in the network.
 
 
 == cluster.switch.count

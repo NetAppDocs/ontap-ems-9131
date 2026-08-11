@@ -14,7 +14,7 @@ summary: rlm.userlist events
 :imagesdir: ./media/
 
 [.lead]
-There was an error while updating user information for the Remote Lan Module (RLM). When user information is updated on Data ONTAP(R), the RLM is also updated with the new changes. This allows users to login to the RLM.
+rlm.userlist events are presented when there was an error while updating user information for the Remote Lan Module (RLM) which may require a reboot.
 
 
 == rlm.userlist.update.failed

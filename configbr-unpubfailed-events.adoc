@@ -14,7 +14,7 @@ summary: configbr.unpubfailed events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the configuration backup and restore feature fails to unpublish a package by using the file replication service. The configuration backup process creates file packages and registers them with the file replication service, which stores the package in the root file system. When the configuration backup process is complete, it cleans up these files by unpublishing the package by using the file replication service. When unpublishing fails, these files are not be cleaned up and remain in the root file system. This message does not indicate a failure in the configuration backup process, which continues despite the event. You can monitor the status of an ongoing configuration backup process by using the "job show" command. The completed configuration backup files are visible when you run the "system configuration backup show" command.
+configbr.unpubfailed events are presented when the configuration backup and restore feature fails to unpublish a package by using the file replication service which is typically fixed by verifying system state and connectivity.
 
 
 == configbr.unpubFailed

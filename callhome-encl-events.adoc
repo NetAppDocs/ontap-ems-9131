@@ -14,7 +14,7 @@ summary: callhome.encl events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when contact to one or more disk shelf enclosure services (environmental monitoring) is lost, possibly due to storage cabling, adapter, or configuration problems. The system uses the enclosure services to monitor the environment continuously to ensure that conditions remain at safe operating levels. If the system cannot contact the enclosure services, it cannot detect when operating conditions move into unsafe ranges and cannot minimize any damage that might result. If your system is configured to do so, it generates and transmits an AutoSupport (or 'call home') message to NetApp technical support and to the configured destinations. Successful delivery of an AutoSupport message significantly improves problem determination and resolution.
+callhome.encl events are presented when contact to one or more disk shelf enclosure services (environmental monitoring) is lost, possibly due to storage cabling, adapter, or configuration problems which is typically fixed by verifying system state and connectivity.
 
 
 == callhome.encl.access

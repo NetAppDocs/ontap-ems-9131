@@ -14,7 +14,7 @@ summary: bridge.timestamp events
 :imagesdir: ./media/
 
 [.lead]
-This message occurs when the max number of retries is exceeded when attempting to apply SCSI SET TIMESTAMP command on one or more attached FC-to-SAS bridges. A timestamp that is not in sync does not affect the functional operation of the bridge. The SET TIMESTAMP operation is only used to synchronize timestamps between ONTAP(R) and the bridge to assist with correlating log events.
+bridge.timestamp events are presented when the max number of retries is exceeded when attempting to apply SCSI SET TIMESTAMP command on one or more attached FC-to-SAS bridges which may require contacting NetApp support.
 
 
 == bridge.timestamp.noSync
