@@ -14,7 +14,7 @@ summary: hwlicense.temporary events
 :imagesdir: ./media/
 
 [.lead]
-hwlicense.temporary events are presented when the system detects a temporary hardware license, which may be fixed by install a valid permanent hardware license.
+hwlicense.temporary EMS events occur when the system detects a temporary hardware license.
 
 
 == hwlicense.temporary

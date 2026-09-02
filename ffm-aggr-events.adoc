@@ -14,7 +14,7 @@ summary: ffm.aggr events
 :imagesdir: ./media/
 
 [.lead]
-ffm.aggr events are presented when an aggregate attach operation is complete. The event displays the service ID of the attached Firefly Service and the generation number, which is the number of times this aggr has been unattached.
+ffm.aggr EMS events occur when ONTAP encounters issues associated with aggregate attach operations managed by the Firefly manager.
 
 
 == ffm.aggr.attach.done

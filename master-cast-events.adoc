@@ -14,7 +14,7 @@ summary: master.cast events
 :imagesdir: ./media/
 
 [.lead]
-master.cast events are presented when the master service of the associated node cannot connect to current cluster master. It tries to cast a vote against current cluster master in the global database.
+master.cast EMS events occur when the master service of a node cannot connect to the current cluster master and casts a vote against it.
 
 
 == master.cast.cm.vote.against

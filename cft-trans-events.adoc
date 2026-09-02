@@ -14,7 +14,7 @@ summary: cft.trans events
 :imagesdir: ./media/
 
 [.lead]
-cft.trans events are presented when Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R) is successful, which may be fixed by contact technical support for assistance.
+cft.trans EMS events occur when ONTAP encounters issues associated with Copy-Free Transition of a 7-Mode aggregate to clustered Data ONTAP(R).
 
 
 == cft.trans.aggr.end

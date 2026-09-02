@@ -14,7 +14,7 @@ summary: ffm.restart events
 :imagesdir: ./media/
 
 [.lead]
-ffm.restart events are presented when the Firefly manager restarts Firefly after detecting abnormal behavior. This restart avoids a core dump, which would not help address the abnormal behavior. When Firefly comes back up, aggregates will be re-attached.
+ffm.restart EMS events occur when the Firefly manager restarts Firefly after detecting abnormal behavior.
 
 
 == ffm.restart.firefly

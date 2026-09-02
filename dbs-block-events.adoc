@@ -14,7 +14,7 @@ summary: dbs.block events
 :imagesdir: ./media/
 
 [.lead]
-dbs.block events are presented when a Distributed Block Store (DBS) successfully completes a block service repair operation involving block rewrites to all BServices that are replicas for the block . See the previous data related events for further information.
+dbs.block EMS events occur when a Distributed Block Store (DBS) block service repair operation completes.
 
 
 == dbs.block.repair.success

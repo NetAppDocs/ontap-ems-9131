@@ -14,7 +14,7 @@ summary: nvdimm.nvemm events
 :imagesdir: ./media/
 
 [.lead]
-nvdimm.nvemm events are presented when all NVDIMM devices have copied nonvolatile data to flash memory.
+nvdimm.nvemm EMS events occur when ONTAP encounters issues associated with NVDIMM data destaging or restaging to and from flash memory.
 
 
 == nvdimm.nvemm.destage.succeed

@@ -14,7 +14,7 @@ summary: msrespmon.nfs events
 :imagesdir: ./media/
 
 [.lead]
-msrespmon.nfs events are presented when data IP is detected to be unresponsive. NFS service may be affected and unreachable.
+msrespmon.nfs EMS events occur when a data IP is detected to be unresponsive.
 
 
 == msRespMon.nfs.unresponsive

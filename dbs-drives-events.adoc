@@ -14,7 +14,7 @@ summary: dbs.drives events
 :imagesdir: ./media/
 
 [.lead]
-dbs.drives events are presented when Distributed Block Store (DBS) has one or more failed drives. This can be happen due to: no access, too many failures, a missing drive, inaccessible master service for the node, or the drive is locked and cannot be unlocked or the.
+dbs.drives EMS events occur when the Distributed Block Store (DBS) has one or more failed drives.
 
 
 == dbs.drives.failed
