@@ -13,6 +13,10 @@ summary: hwlicense.temporary events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+hwlicense.temporary EMS events occur when the system detects a temporary hardware license.
+
+
 == hwlicense.temporary
 *Severity*::
 ALERT

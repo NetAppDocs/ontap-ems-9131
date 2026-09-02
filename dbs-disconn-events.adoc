@@ -13,6 +13,10 @@ summary: dbs.disconn events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.disconn EMS events occur when ONTAP encounters issues associated with cluster or node connectivity in the Distributed Block Store (DBS).
+
+
 == dbs.disconn.cluster.pair
 *Severity*::
 ERROR

@@ -13,6 +13,10 @@ summary: hwlicense.expired events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+hwlicense.expired EMS events occur when the system detects an expired hardware license.
+
+
 == hwlicense.expired
 *Severity*::
 EMERGENCY

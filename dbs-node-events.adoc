@@ -13,6 +13,10 @@ summary: dbs.node events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.node EMS events occur when ONTAP encounters issues associated with a Distributed Block Store (DBS) node in maintenance mode.
+
+
 == dbs.node.maint.mode.alert
 *Severity*::
 ALERT

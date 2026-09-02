@@ -13,6 +13,10 @@ summary: dbs.director events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.director EMS events occur when ONTAP encounters issues associated with data address and aggregate assignment movement in the Distributed Block Store (DBS).
+
+
 == dbs.director.addrs.stable
 *Severity*::
 NOTICE

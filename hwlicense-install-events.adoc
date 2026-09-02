@@ -13,6 +13,10 @@ summary: hwlicense.install events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+hwlicense.install EMS events occur when ONTAP encounters issues associated with installing a hardware license.
+
+
 == hwlicense.install.fail.dl
 *Severity*::
 ERROR

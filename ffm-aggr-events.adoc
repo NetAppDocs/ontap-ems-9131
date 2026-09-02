@@ -13,6 +13,10 @@ summary: ffm.aggr events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+ffm.aggr EMS events occur when ONTAP encounters issues associated with aggregate attach operations managed by the Firefly manager.
+
+
 == ffm.aggr.attach.done
 *Severity*::
 NOTICE

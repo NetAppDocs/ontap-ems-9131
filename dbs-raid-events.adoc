@@ -13,6 +13,10 @@ summary: dbs.raid events
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+dbs.raid EMS events occur when ONTAP encounters issues associated with a RAID group in the Distributed Block Store (DBS) cluster.
+
+
 == dbs.raid.group.degraded
 *Severity*::
 ERROR
